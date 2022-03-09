@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://openfree.energy" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: openfreeenergy
 github_username:  openfreeenergy
+logo: assets/images/Squaredcircle.svg
 
 # Build settings
 theme: minima
