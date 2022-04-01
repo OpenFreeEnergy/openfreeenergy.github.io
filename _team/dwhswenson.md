@@ -1,6 +1,6 @@
 ---
 name: David W.H. Swenson
-position: Senior Developer
+position: Senior Software Scientist
 image_path:
 github: dwhswenson
 scholar:
