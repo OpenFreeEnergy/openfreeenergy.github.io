@@ -7,3 +7,4 @@ dependencies:
   - compilers
   - cxx-compiler
   - ruby
+  - rb-bundler
