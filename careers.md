@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Careers
+description: Join us!
 permalink: /careers/
 ---
 
@@ -16,4 +17,4 @@ One or more of the following would also be beneficial:
 - history of collaborating between different projects
 
 
-For more details and how to apply, please visit the [OMSF careers page](https://omsf.io/about/careers/)
+For more details and how to apply, please visit the [OMSF careers page](https://omsf.io/about/careers/).
