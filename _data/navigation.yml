@@ -10,3 +10,7 @@
   link: /news/
   new_window: False
   highlight: False
+- name: Careers
+  link: /careers/
+  new_window: False
+  highlight: False

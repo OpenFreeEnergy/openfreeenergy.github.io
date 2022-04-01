@@ -4,9 +4,8 @@ description: >-
   We've built an amazing, fantastic team of developers,
 ---
 
-<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
 <ul class="staff">
-	{% for person in site.team_members %}
+	{% for person in site.team %}
 		<li>
 			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
 			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.link }}">{{ person.name }}</a></div>
