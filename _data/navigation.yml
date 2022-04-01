@@ -1,0 +1,8 @@
+- name: About
+  link: /about/
+  new_window: False
+  highlight: False
+- name: News
+  link: /news/
+  new_window: False
+  highlight: False

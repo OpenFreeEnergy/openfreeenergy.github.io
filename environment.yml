@@ -1,0 +1,9 @@
+name: ofe-website
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - c-compiler
+  - compilers
+  - cxx-compiler
+  - ruby
