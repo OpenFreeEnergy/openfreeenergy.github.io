@@ -1,7 +1,8 @@
 ---
 name:
+position:
 image_path:
 github:
-link:
+scholar:
 blurb:
 ---
