@@ -46,7 +46,7 @@ defaults:
           height: 2500
   - scope:
       path: ""
-      type: "staff_members"
+      type: "team"
     values:
       _options:
         image_path:
@@ -81,6 +81,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - environment.yml
 
 # -----------
 # CloudCannon
