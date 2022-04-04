@@ -1,7 +1,7 @@
 ---
 name: Mike Henry
 position: Software Scientist
-image_path:
+image_path: https://avatars.githubusercontent.com/u/11765982?v=4
 github: mikemhenry
 scholar: citations?user=RgstaoUAAAAJ&hl=en
 blurb: >-
