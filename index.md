@@ -20,9 +20,9 @@ binding free energies for networks of molecular systems.
 
 ### DRUG DESIGN AND DISCOVERY
 
-Our tools are designed with the pharmaceutical lead optimization in mind, and
-we work closely with our board members in industry to develop tools that meet
-the needs of real-world users.
+Our tools are designed with pharmaceutical lead optimization in mind, and we
+work closely with our board members in industry to develop tools that meet the
+needs of real-world users.
 
 
 OpenFE is hosted by the [Open Molecular Software Foundation](https://omsf.io).
