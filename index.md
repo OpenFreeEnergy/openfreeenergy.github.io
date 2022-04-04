@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OpenFreeEnergy
+title: Open Free Energy
 description: >-
   The Open Free Energy (OpenFE) initiative is dedicated to the development of
   open-source tools for binding free energy calculations to guide
