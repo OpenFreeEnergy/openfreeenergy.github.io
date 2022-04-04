@@ -14,7 +14,10 @@ description: >-
       </div>
       <div class="position">{{ person.position }}</div>
       <div class="github">
-        <a href="https://github.com/{{ person.github }}">{{ person.github }}</a>
+          <a target="_blank" href="https://github.com/{{ person.github }}" class="GitHub-icon">
+              {% include social-icon.html icon=GitHub %}
+              {{ person.github }}
+          </a>
       </div>
       {% if person.scholar %}
       <div class="scholar">
