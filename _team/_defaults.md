@@ -1,0 +1,8 @@
+---
+name:
+position:
+image_path:
+github:
+scholar:
+blurb:
+---

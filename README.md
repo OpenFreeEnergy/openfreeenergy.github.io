@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Website for OpenFreeEnergy
 
-You can use the [editor on GitHub](https://github.com/OpenFreeEnergy/openfreeenergy.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+The get this started within a conda environment, first create an environment
+from the included `environment.yml` file. Then you will need to run `bundle
+install`. From there, you can launch a local server using `bundle exec jekyll
+serve`. Use the `--watch` argument to `jekyll serve` if you want website to
+automatically update as you make changes.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Tracking upstream changes
 
-### Markdown
+It turns out this theme is poorly designed for customization. So I'm keeping in
+here our overrides along with the diff of the original, which will hopefully
+make future maintenance updates a little easier.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When creating a diff, it should always be
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+diff installed_file our_file > _file.diff
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+This way, we can check whether updated versions of the theme made changes to
+the files that we have changed -- if that diff is exactly the saved diff, then
+no changes have been made upstream.
 
-### Jekyll Themes
+You can find the location of the installed file with:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OpenFreeEnergy/openfreeenergy.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+bundle info --path jekyll-theme-hydra
+```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

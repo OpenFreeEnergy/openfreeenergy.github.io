@@ -1,0 +1,18 @@
+# currently about is at index.md; uncomment if we have separate landing and
+# about
+#- name: About
+  #link: /about/
+  #new_window: False
+  #highlight: False
+- name: Our Team
+  link: /team/
+  new_window: False
+  highlight: False
+- name: News
+  link: /news/
+  new_window: False
+  highlight: False
+- name: Careers
+  link: /careers/
+  new_window: False
+  highlight: False
