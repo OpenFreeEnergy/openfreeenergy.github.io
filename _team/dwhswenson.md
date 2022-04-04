@@ -5,7 +5,9 @@ image_path: https://avatars.githubusercontent.com/u/8178546?v=4
 github: dwhswenson
 scholar:
 blurb: >-
-  David likes writing lots and lots of Python. He's a little less happy when
-  he's trying to convince Jekyll's liquid templating system to do what he
-  wants.
+  David received his Ph.D. in Chemistry from the University of California,
+  Berkeley in 2011, and worked as a postdoc at the University of Amsterdam and
+  the École Normale Supérieure de Lyon. Since 2014, he has been a principal
+  developer for OpenPathSampling. When not coding, he is often creating
+  culinary or cocktail concoctions.
 ---
