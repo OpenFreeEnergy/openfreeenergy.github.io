@@ -1,7 +1,7 @@
 ---
 name: Irfan Alibay
 position: Senior Research Associate / Software Scientist, University of Oxford
-image_path: https://avatars.githubusercontent.com/u/12460125?v=4 
+image_path: /assets/images/team/IrfanAlibay.jpg
 github: IAlibay
 scholar: citations?user=te0aWHMAAAAJ&hl=en
 blurb: >-
