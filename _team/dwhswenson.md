@@ -1,7 +1,7 @@
 ---
 name: David W.H. Swenson
 position: Senior Software Scientist
-image_path:
+image_path: https://avatars.githubusercontent.com/u/8178546?v=4
 github: dwhswenson
 scholar:
 blurb: >-

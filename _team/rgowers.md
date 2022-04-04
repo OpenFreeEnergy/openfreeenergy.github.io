@@ -1,7 +1,7 @@
 ---
 name: Richard Gowers
 position: Lead Software Scientist
-image_path:
+image_path: https://avatars.githubusercontent.com/u/9249543?v=4 
 github: richardjgowers
 scholar:
 blurb: >-
