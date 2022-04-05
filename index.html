@@ -1,0 +1,71 @@
+---
+layout: default
+description: >-
+  The Open Free Energy initiative is dedicated to the development of
+  **open-source** tools for **binding free energy** calculations to guide
+  pharmaceutical **drug design and discovery**.
+bullets:
+  - image:
+      src:
+      alt:
+    text: >-
+      ## OPEN SOURCE
+
+      Our software is [developed in public on
+      GitHub](https://github.com/OpenFreeEnergy) and is released under the permissive
+      MIT license.
+  - image:
+      src:
+      alt:
+    text: >-
+      ## BINDING FREE ENERGY 
+
+      We develop tools that enable our users to easily and efficiently
+      calculate binding free energies for networks of molecular systems.
+  - image:
+      src:
+      alt:
+    text: >-
+      ## DRUG DESIGN AND DISCOVERY
+
+      Our tools are designed with pharmaceutical lead optimization in mind,
+      and we work closely with our board members in industry to develop
+      tools that meet the needs of real-world users.
+bottom: >-
+  ## Open Free Energy is hosted by the [Open Molecular Software
+  Foundation](https://omsf.io).
+---
+
+<section class="hero">
+  <div class="text-container">
+    <h1>{{ page.title }}</h1>
+    <p class="subtext">{{ page.description | markdownify }}</p>
+    {% if page.hero %}
+    <div>
+      <img src="{{ page.hero.src }}" alt="{{ page.hero.alt }}" />
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<div class="content">
+  {% for bullet in page.bullets %}
+  <section>
+    <div class="container flex">
+      <div class="text">
+        {{ bullet.text | markdownify }}
+      </div>
+      <div class="image">
+        <img src="{{ bullet.image.src }}" alt="{{ bullet.image.alt }}" />
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+
+  {% if page.bottom %}
+  <section class="bottom-cta">
+    {{ page.bottom | markdownify }}
+  </section>
+  {% endif %}
+  
+
