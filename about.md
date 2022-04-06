@@ -1,32 +1,21 @@
 ---
 layout: page
-title: About Open Free Energy
+title: About
 permalink: /about/
-description:
 ---
 
+Open Free Energy sits at the nexus of academia and industry.
+Our software is designed to be stable, reliable, and thoroughly tested, as
+required by industry, while also providing tools that make it easier for
+academics to develop the new methods that will become the next industry
+standards. We build bridges that enable industrial users to benefit from
+bleeding edge methods being developed in academia.
 
-## Mission
-Promote, foster and advance science in Computational Biophysics through the
-development of precision-driven open software.
+We do this by developing packages aimed at enhancing interoperability of
+existing software, as well as by taking maintenance responsibilities for useful
+existing packages without an active maintainer.
 
-## Vision
-By 2027, be the world reference in open molecular-software development.
-
-## Values
-
-**Skepticism:** There is no such thing as absolute or eternal truth.
-
-**Open-mindedness:** We are eager to accept different knowledge as it is built
-on facts, data and evidence.
-
-**Willingness to learn:** Science is a lifelong journey.  Passion for
-intellectual development: we build paths to enlightenment.
-
-## What we do?
-
-We believe in developing rational, science-based and sustainable open solutions
-to humanity’s problems. We do this by offering complete computational
-technologies aimed at building knowledge about biological systems of interest.
-Our goal is to support the pharmaceutical industry in the intelligent drug
-design process to enable innovative treatments for those who need them.
+Open Free Energy is a hosted software project of the Open Molecular Software
+Foundation (OMSF). The Open Free Energy Fund, managed by OMSF, receives
+donations and uses them to support the continued development of Open Free
+Energy.
