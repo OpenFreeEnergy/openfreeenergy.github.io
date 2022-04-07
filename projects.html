@@ -4,38 +4,13 @@ permalink: /projects/
 description: >-
   Open Free Energy develops and maintains several software tools used in
   alchemical free energy calculations.
-projects:
-  - name: openfe
-    repo: OpenFreeEnergy/openfe
-    docs: https://openfe.readthedocs.org
-    conda-install: openfe
-    role: developers
-    description: >-
-      This is the flagship product of Open Free Energy. This library
-      contains tools to create, simulate, and analyze networks of alchemical
-      transformations. It also includes a command line interface and
-      interactive visualization tools.
-  - name: gufe
-    repo: OpenFreeEnergy/gufe
-    conda-install: gufe
-    role: developers
-    description: >-
-      A project to serve as a shared backend for different alchemical free
-      energy packags. It makes it easier to translate between various
-      packages in the broader ecosystem.
-  - name: lomap
-    repo: OpenFreeEnergy/Lomap
-    conda-install: lomap2
-    role: maintainers
-    description: >-
-      Lomap is a tool for creating atom mappings between two ligand
-      molecules. It was originally developed by the research lab of David
-      Mobley at University of California, Irvine. Open Free Energy has taken
-      responsibility for maintaining this package.
 ---
 
 <table class="projects">
-  {% for project in page.projects %}
+  {% assign roles = "flagship developers maintainers" | split: " " %}
+  {% for role in roles %}
+  {% for project in site.projects %}
+  {% if project.role == role %}
   <tr>
       <td class="project-name">
           <code>{{ project.name | markdownify }}</code>
@@ -54,5 +29,7 @@ projects:
       </td>
 
   </tr>
+  {% endif %}
+  {% endfor %}
   {% endfor %}
 </table>
