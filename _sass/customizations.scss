@@ -5,7 +5,7 @@
     --sergios-cousin: #ede3da;
     --feeling-spicy: #b85741;
     --feeling-sick: #009384;
-    --dull-text-grey: #666666ff;
+    --beastly-grey: #666666;
 }
 
 
@@ -31,7 +31,7 @@ a {
 }
 
 p, address {
-    color: var(--dull-text-grey);
+    color: var(--beastly-grey);
 }
 
 h2, h3 {
@@ -50,14 +50,14 @@ h2, h3 {
 
 li {
         font-size: 1.38em;
-        color: var(--dull-text-grey);
+        color: var(--beastly-grey);
         font-weight: 300;
         line-height: 1.4em;
 }
 
 .blurb {
     font-size: 0.9em;
-    color: var(--dull-text-grey);
+    color: var(--beastly-grey);
     margin-bottom: 20px;
     font-weight: 300;
     line-height: 1.4em
