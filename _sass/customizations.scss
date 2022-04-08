@@ -1,3 +1,30 @@
+:root {
+    --badass-blue: #31394d;
+    --other-blue: #002f4a;
+    --sandy-sergio: #d9c4b1;
+    --sergios-cousin: #ede3da;
+    --feeling-spicy: #b85741;
+    --feeling-sick: #009384;
+}
+
+
+.hero {
+    background: var(--badass-blue);
+}
+
+header {
+    background: var(--badass-blue);
+}
+
+footer {
+    background: var(--badass-blue);
+}
+
+.bottom-cta {
+    background: var(--other-blue);
+}
+
+
 li {
         font-size: 1.38em;
         color: #666;
