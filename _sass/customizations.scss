@@ -5,6 +5,7 @@
     --sergios-cousin: #ede3da;
     --feeling-spicy: #b85741;
     --feeling-sick: #009384;
+    --beastly-grey: #666666;
 }
 
 
@@ -25,16 +26,38 @@ footer {
 }
 
 
+a {
+    color: var(--other-blue);
+}
+
+p, address {
+    color: var(--beastly-grey);
+}
+
+h2, h3 {
+    color: var(--badass-blue);
+}
+
+.button a {
+    background: var(--other-blue);
+    transition: 0.2s;
+}
+
+.bottom-cta h2 {
+    color: #FFF;
+}
+
+
 li {
         font-size: 1.38em;
-        color: #666;
+        color: var(--beastly-grey);
         font-weight: 300;
         line-height: 1.4em;
 }
 
 .blurb {
     font-size: 0.9em;
-    color: #666;
+    color: var(--beastly-grey);
     margin-bottom: 20px;
     font-weight: 300;
     line-height: 1.4em
@@ -49,7 +72,7 @@ li {
 }
 
 .github a.GitHub-icon {
-    color: #999;
+    color: --var(other-blue);
 }
 
 .bottom-cta a {
