@@ -17,6 +17,7 @@ existing packages in need of an active maintainer. In addition to the packages
 that are officially part of the Open Free Energy portfolio, our team regularly
 contributes to open source projects in the broader ecosystem.
 
-Open Free Energy is a hosted software project of the Open Molecular Software
-Foundation (OMSF). The Open Free Energy Fund, managed by OMSF, receives
-donations and uses them to support continued work on Open Free Energy.
+The Open Free Energy project is a hosted software project of the [Open Molecular
+Software Foundation (OMSF)](https://omsf.io/).
+The Open Free Energy Fund, managed by OMSF, receives contributions from industrial
+partners and uses them to support continued work on Open Free Energy.
