@@ -2,31 +2,22 @@
 layout: page
 title: About Open Free Energy
 permalink: /about/
-description:
 ---
 
+Open Free Energy sits at the nexus of academia and industry.
+Our software is designed to be stable, reliable, and thoroughly tested, as
+required by industry, while also providing tools that make it easier for
+academics to develop the new methods that will become the next industry
+standards. We build bridges that enable both academic and industrial users to
+benefit from bleeding edge methods being developed by free energy experts.
 
-## Mission
-Promote, foster and advance science in Computational Biophysics through the
-development of precision-driven open software.
+Our work includes developing packages aimed at enhancing interoperability of
+existing software, as well as taking maintenance responsibilities for useful
+existing packages in need of an active maintainer. In addition to the packages
+that are officially part of the Open Free Energy portfolio, our team regularly
+contributes to open source projects in the broader ecosystem.
 
-## Vision
-By 2027, be the world reference in open molecular-software development.
-
-## Values
-
-**Skepticism:** There is no such thing as absolute or eternal truth.
-
-**Open-mindedness:** We are eager to accept different knowledge as it is built
-on facts, data and evidence.
-
-**Willingness to learn:** Science is a lifelong journey.  Passion for
-intellectual development: we build paths to enlightenment.
-
-## What we do?
-
-We believe in developing rational, science-based and sustainable open solutions
-to humanity’s problems. We do this by offering complete computational
-technologies aimed at building knowledge about biological systems of interest.
-Our goal is to support the pharmaceutical industry in the intelligent drug
-design process to enable innovative treatments for those who need them.
+The Open Free Energy project is a hosted software project of the [Open Molecular
+Software Foundation (OMSF)](https://omsf.io/).
+The Open Free Energy Fund, managed by OMSF, receives contributions from industrial
+partners and uses them to support continued work on Open Free Energy.
