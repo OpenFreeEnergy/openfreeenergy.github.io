@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Open Free Energy
 permalink: /about/
 ---
 
@@ -13,7 +13,9 @@ benefit from bleeding edge methods being developed by free energy experts.
 
 Our work includes developing packages aimed at enhancing interoperability of
 existing software, as well as taking maintenance responsibilities for useful
-existing packages in need of an active maintainer.
+existing packages in need of an active maintainer. In addition to the packages
+that are officially part of the Open Free Energy portfolio, our team regularly
+contributes to open source projects in the broader ecosystem.
 
 Open Free Energy is a hosted software project of the Open Molecular Software
 Foundation (OMSF). The Open Free Energy Fund, managed by OMSF, receives
