@@ -1,0 +1,35 @@
+---
+title: Projects
+permalink: /projects/
+description: >-
+  Open Free Energy develops and maintains several software tools used in
+  alchemical free energy calculations.
+---
+
+<table class="projects">
+  {% assign roles = "flagship developers maintainers" | split: " " %}
+  {% for role in roles %}
+  {% for project in site.projects %}
+  {% if project.role == role %}
+  <tr>
+      <td class="project-name">
+          <code>{{ project.name | markdownify }}</code>
+          <p><a href="http://github.com/{{ project.repo }}" target="_blank"
+                class="Github-icon"</a>
+              {% include social-icon.html icon='GitHub' %}
+          </a></p>
+          {% if project.docs %}
+          <p><a href="{{ project.docs }}" target="_blank">Docs</a></p>
+          {% endif %}
+      </td>
+      <td class="project-details">
+          {{ project.description | markdownify }}
+          <p>Install with: <code>conda install -c conda-forge 
+          {{ project.conda-install }}</code></p>
+      </td>
+
+  </tr>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</table>
