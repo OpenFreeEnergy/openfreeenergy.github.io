@@ -39,8 +39,12 @@ h2, h3 {
 }
 
 .button a {
-    background: var(--other-blue);
+    background: var(--badass-blue);
     transition: 0.2s;
+}
+
+.button a:hover {
+    background: var(--other-blue);
 }
 
 .bottom-cta h2 {
