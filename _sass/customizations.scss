@@ -47,6 +47,10 @@ h2, h3 {
     background: var(--other-blue);
 }
 
+.button.cta.alt a:hover {
+    color: var(--badass-blue);
+}
+
 .bottom-cta h2 {
     color: #FFF;
 }
