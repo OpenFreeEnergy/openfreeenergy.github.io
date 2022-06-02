@@ -10,6 +10,10 @@
   link: /team/
   new_window: False
   highlight: False
+- name: Roadmap
+  link: /roadmap/
+  new_window: False
+  highlight: False
 - name: News
   link: /news/
   new_window: False
