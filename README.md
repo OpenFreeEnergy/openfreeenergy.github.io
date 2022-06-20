@@ -35,3 +35,24 @@ The details for these are in files in `_projects/`. Make a copy of
 (although all you do is fill in the YAML). Fill in each of the fields. `role`
 can be one of `flagship`, `developers`, `maintainers`. Within each role,
 projects are listed alphabetically by filename.
+
+## Adding new team members
+
+Each team member has a file that is just a markdown file with YAML frontmatter.
+Only the frontmatter is filled in. The frontmatter includes the following fields:
+
+* `name`: Full name as you want it on the website
+* `position`: Title at OpenFreeEnergy
+* `image_path`: URL or path to an image. We frequently use our GitHub avatars
+  (in which case this should be the whole https URI). If using a file, place it
+  in the `assets/images/team/` directory. In that case, note that the
+  `image_path` should have a preceding slash (i.e.,
+  `/assets/images/team/image.jpg`)
+* `github`: You GitHub username
+* `scholar` [optional]: A link to your Google Scholar profile. Should include
+  everything that comes after `https://scholar.google.com/` in your profile's
+  URL. Leave this blank if you don't want to include your Google Scholar link.
+* `blurb`: A brief paragraph describing yourself.
+
+You can copy `_team/_defaults.md` to get a template. You can see the rendered
+versions at https://openfree.energy/team/.
