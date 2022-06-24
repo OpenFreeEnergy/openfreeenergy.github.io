@@ -1,6 +1,6 @@
 ---
 name: Benjamin Ries
-position: Post Doc, OMFE & Boehringer Ingelheim
+position: Post Doc, openFE & Boehringer Ingelheim
 image_path: /assets/images/team/BenjaminRies.jpg
 github: RiesBen
 scholar: citations?hl=en&user=r07_fl4AAAAJ
