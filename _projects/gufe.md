@@ -4,7 +4,10 @@ repo: OpenFreeEnergy/gufe
 conda-install: gufe
 role: developers
 description: >-
-  A project to serve as a shared backend for different alchemical free
-  energy packags. It makes it easier to translate between various packages
-  in the broader ecosystem.
+  Gufe (grand unified free energy) is designed for use by **developers** of
+  free energy methods.  It provides object models for expressing the chemical
+  systems and the alchemical transformations between them (mappings) to form
+  free energy networks.
+  Protocols can then be applied to provide an estimate of the free energy difference
+  between different systems.
 ---
