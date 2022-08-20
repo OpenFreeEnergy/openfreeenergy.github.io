@@ -10,4 +10,5 @@ blurb: >-
   the École Normale Supérieure de Lyon. Since 2014, he has been a principal
   developer for OpenPathSampling. When not coding, he is often creating
   culinary or cocktail concoctions.
+order: 1
 ---

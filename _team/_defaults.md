@@ -5,4 +5,5 @@ image_path:
 github:
 scholar:
 blurb:
+order:
 ---

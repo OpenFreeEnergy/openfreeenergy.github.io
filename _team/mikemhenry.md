@@ -10,4 +10,5 @@ blurb: >-
   and developing packages part of the OpenMM ecosystem--focusing on free energy methods
   and machine learning. Mike specializes in scientific developer operations and 
   reproducible scientific workflows using container technology.
+order: 1
 ---

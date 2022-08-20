@@ -6,7 +6,7 @@ description: >-
 ---
 
 <ul class="staff">
-  {% for person in site.team %}
+  {% for person in site.team|sort(attribute="order")%}
     <li>
       <div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
       <div class="name">

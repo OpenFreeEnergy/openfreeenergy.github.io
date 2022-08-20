@@ -10,4 +10,5 @@ blurb: >-
   Technology (MIT). Between 2008 and 2020, he was a Professor of Physics at the
   Catholic University of Brasília (UCB). Now he is the Scientific Project
   Manager for both the Open Force Field and the Open Free Energy initiatives.
+order: 1
 ---

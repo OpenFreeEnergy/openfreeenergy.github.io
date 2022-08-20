@@ -11,4 +11,5 @@ blurb: >-
   roles in various locations.  He has contributed to various open source projects,
   most notably developing the MDAnalysis package since 2013.  When not at his
   desk he is often found walking his dog in south London.
+order: 1
 ---

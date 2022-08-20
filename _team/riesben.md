@@ -9,4 +9,5 @@ blurb: >-
   He studied Biochemistry and Bioinformatics at the Eberhard-Karls University Tübingen and worked on free energy calculation methods during his PhD at ETH Zurich.
   Now he aims at a code development that facilitates easy and efficient use of FE methods for the future.
   During his leisure time, Benjamin hikes, bikes, or climbs mountains in his vicinity.
+order: 1
 ---
