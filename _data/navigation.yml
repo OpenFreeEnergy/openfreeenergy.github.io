@@ -22,3 +22,7 @@
   link: /careers/
   new_window: False
   highlight: False
+- name: Contact
+  link: /contact/
+  new_window: False
+  highlight: False
