@@ -13,12 +13,14 @@ description: >-
         {{ person.name }}
       </div>
       <div class="position">{{ person.position }}</div>
+      { if person.github %}
       <div class="github">
           <a target="_blank" href="https://github.com/{{ person.github }}" class="GitHub-icon">
               {% include social-icon.html icon='GitHub' %}
               {{ person.github }}
           </a>
       </div>
+      {% endif %}
       {% if person.scholar %}
       <div class="scholar">
           <a href="https://scholar.google.com/{{ person.scholar }}">Google Scholar</a>
