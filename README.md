@@ -1,7 +1,7 @@
 # Website for OpenFreeEnergy
 
 The get this started within a [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation) environment, first create an environment from the included `environment.yml` file (`conda env create --file environment.yml`).
-Before following the next steps, be sure to active your environment with `conda activate ofe-website`
+Before following the next steps, be sure to active your environment with `conda activate ofe-website`.
 Then you will need to run `bundle install`. 
 From there, you can launch a local server using `bundle exec jekyll serve`. 
 Use the `--watch` argument to `jekyll serve` if you want website to automatically update as you make changes.
