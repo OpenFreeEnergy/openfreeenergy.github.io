@@ -24,18 +24,5 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 
 ## Industry partners
 
-- [AstraZeneca](https://www.astrazeneca.com/)
-- [Bayer](https://www.bayer.com/en/)
-- [Bristol Meyers Squibb](https://www.bms.com/)
-- [Confo Therapeutics](https://www.confotherapeutics.com/)
-- [Eli Lilly](https://www.lilly.com/)
-- [Exscientia](https://www.exscientia.ai/)
-- [Genentech, Inc](https://www.gene.com/)
-- [GSK](https://www.gsk.com/en-gb/)
-- [Interline Therapeutics](https://www.interlinetx.com/)
-- [Janssen Pharmaceutica NV](https://www.janssen.com/)
-- [Merck KGaA](https://www.merckgroup.com/en)
-- [Nurix Therapeutics](https://www.nurixtx.com/)
 - [Redesign Science Inc](https://www.redesignscience.com/)
-- [Relay Therapeutics](https://relaytx.com/)
 - And others...
