@@ -24,5 +24,10 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 
 ## Industry partners
 
+- [AstraZeneca](https://www.astrazeneca.com/)
+- [Bayer](https://www.bayer.com/en/)
+- [Boehringer Ingelheim](https://www.boehringer-ingelheim.com)
+- [Janssen Pharmaceutica NV](https://www.janssen.com/)
+- [Merck KGaA](https://www.merckgroup.com/en)
 - [Redesign Science Inc](https://www.redesignscience.com/)
 - And others...
