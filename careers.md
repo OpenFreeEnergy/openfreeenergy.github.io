@@ -17,4 +17,6 @@ One or more of the following would also be beneficial:
 - history of collaborating between different projects
 
 
-For more details and how to apply, please visit the [OMSF careers page](https://omsf.io/about/careers/).
+If you are a software scientist with a relevant interest in getting involved with open software development, please fill out the [application form](https://docs.google.com/forms/d/e/1FAIpQLSdv8B5mx_imKl0I0OOVs9zMjSHlAj2WuJPVXjqSVQpCLHW4YQ/viewform). Applications will be reviewed on a regular basis or considered when a new position opens.
+
+For more details, please visit the [OMSF careers page](https://omsf.io/about/careers/).
