@@ -28,7 +28,7 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 - [AstraZeneca](https://www.astrazeneca.com/)
 - [Bayer](https://www.bayer.com/en/)
 - [Boehringer Ingelheim](https://www.boehringer-ingelheim.com)
-- [Bristol Meyers Squibb](https://www.bms.com/)
+- [Bristol Myers Squibb](https://www.bms.com/)
 - [Confo Therapeutics](https://www.confotherapeutics.com/)
 - [Eli Lilly](https://www.lilly.com/)
 - [Exscientia](https://www.exscientia.ai/)
