@@ -1,5 +1,5 @@
 ---
-layout: careers
+layout: page
 title: Careers
 description: Join us!
 permalink: /careers/
@@ -18,3 +18,13 @@ One or more of the following would also be beneficial:
 
 
 For more details and how to apply, please visit the [OMSF careers page](https://omsf.io/about/careers/).
+
+<ul class="jobs">
+  {% for job in site.jobs %}
+    {% assign status = job.status | downcase %}
+    {% if status == "open" %}
+      <li><a href="{{ job.url }}">{{ job.jobid }} - {{ job.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
