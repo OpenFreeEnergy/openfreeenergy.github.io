@@ -1,0 +1,11 @@
+---
+layout: page
+---
+
+{% assign status = page.status | downcase %}
+{% if status != "open" %}
+<span>We are no longer accepting applications for this position</span>
+{% endif %}
+
+
+{{ content }}

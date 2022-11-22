@@ -3,8 +3,8 @@ layout: job
 jobid: $jobid
 status: $status  # choose: open closed filled
 permalink: /careers/postings/$jobid
-title: Join us! Job $jobid
-description: $jobtitle
+title: $jobtitle
+description: Join us! Job $jobid
 ---
 
 Open Free Energy is currently seeking a new teammate to $description. The ideal

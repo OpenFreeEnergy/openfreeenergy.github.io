@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: careers
 title: Careers
 description: Join us!
 permalink: /careers/

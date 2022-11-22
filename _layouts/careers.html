@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<ul class="jobs">
+  {% for job in site.jobs %}
+    {% assign status = job.status | downcase %}
+    {% if status == "open" %}
+      <li><a href="{{ job.url }}">{{ job.jobid }} - {{ job.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
