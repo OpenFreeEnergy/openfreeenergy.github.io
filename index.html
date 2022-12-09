@@ -6,7 +6,7 @@ description: >-
   pharmaceutical **drug design and discovery**.
 bullets:
   - image:
-      src: 
+      src:
       alt:
     text: >-
       ## OPEN SOURCE
@@ -53,13 +53,13 @@ bottom: >-
 
 <div class="content">
   {% for bullet in page.bullets %}
-  <section >
+  <section>
     <div class="container flex">
       <div class="text">
         {{ bullet.text | markdownify }}
       </div>
       <div class="image">
-        <img src="{{ bullet.image.src }}" alt="{{ bullet.image.alt }}"/>
+        <img src="{{ bullet.image.src }}" alt="{{ bullet.image.alt }}" />
       </div>
     </div>
   </section>
