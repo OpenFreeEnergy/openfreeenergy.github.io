@@ -17,7 +17,10 @@ following areas:
 
 Additionally, all OpenFE team members are expected to have the following skills:
 
-* TODO IN TEMPLATE: FILL THIS IN
+* Python programming experience
+* (Bio)Molecular simulation knowledge
+* Experience working with open source software projects
+* Good science communication skills
 
 Does this sound like you? If so, please fill out this [simple form](), and use
 it to upload your resume/CV and a cover letter. Reference job ID {{ page.jobid }} to 
