@@ -28,8 +28,10 @@ timezone: Etc/UTC
 
 collections:
   team:
-    _hide_content: true
+   _hide_content: true
   projects:
+  jobs:
+    output: true
 
 paginate: 10
 paginate_path: "/news/:num/"
@@ -53,6 +55,11 @@ defaults:
         image_path:
           width: 600
           height: 600
+  - scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: "job"
   - scope:
       path: ""
     values:
