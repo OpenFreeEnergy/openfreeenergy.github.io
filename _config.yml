@@ -5,7 +5,7 @@ title: OpenFreeEnergy
 url: "https://openfree.energy/"
 baseurl:
 remote_theme: CloudCannon/hydra-jekyll-template
-google_analytics_key:
+google_analytics_key: ""  # must be empty string to disable (theme issue)
 google_maps_javascript_api_key:
 disqus_shortname:
 
