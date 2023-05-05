@@ -1,6 +1,7 @@
 ---
 name: kartograf
 repo: OpenFreeEnergy/kartograf
+docs: https://kartograf.readthedocs.org
 conda-install: kartograf
 role: developers
 description: >-
