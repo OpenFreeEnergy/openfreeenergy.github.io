@@ -1,7 +1,7 @@
 ---
 name: James Baggs Eastwood
 position: Project Manager
-image_path: assets/images/team/JamesEastwood.jpg
+image_path: /assets/images/team/JamesEastwood.jpg
 github: jameseastwood
 scholar:
 blurb: >-
