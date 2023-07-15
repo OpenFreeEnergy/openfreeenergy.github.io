@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contact
+title: Getting Involved
 description: Get in touch!
-permalink: /contact/
+permalink: /getting_involved/
 ---
 
 Joining the Consortium
