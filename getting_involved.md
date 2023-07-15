@@ -15,6 +15,7 @@ please consider funding the project and joining the consortium.
 Consortium members benefit from:
 - Dedicated private support and training
 - Prioritised feature requests
+- Participation of your company's scientist in our regular meetings
 - Accelerating the development of the next generation of tools
 - Ensuring the ongoing maintenance of key software
 
