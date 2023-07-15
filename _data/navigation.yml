@@ -10,19 +10,11 @@
   link: /team/
   new_window: False
   highlight: False
-- name: Roadmap
-  link: /roadmap/
-  new_window: False
-  highlight: False
-- name: News
-  link: /news/
+- name: Getting involved
+  link: /getting_involved/
   new_window: False
   highlight: False
 - name: Careers
   link: /careers/
-  new_window: False
-  highlight: False
-- name: Contact
-  link: /contact/
   new_window: False
   highlight: False
