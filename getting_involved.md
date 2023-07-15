@@ -19,7 +19,7 @@ Consortium members benefit from:
 - Ensuring the ongoing maintenance of key software
 
 All contributions are made via our non-profit host organisation [The Open Molecular Software Foundation](https://www.omsf.io).
-To get in touch please email as us `OpenFreeEnergy@omsf.io`
+To get in touch please email us at `OpenFreeEnergy@omsf.io`
 
 Collaborations
 --------------
