@@ -1,0 +1,24 @@
+{% comment %}
+This is the include file for a catalog entry summary card. Style can be done
+in SASS/CSS. In this implementation, there's a paragraph for the entry
+name (which links to the entry's full page), a paragraph for the developers,
+a paramgraph for the entry's summary, and a list of bullet points for the
+license and anything else we might want to add to the summary.
+{% endcomment %}
+
+<div class="ecosystemSummary" id="ecosystem-{{ include.entry.name }}">
+    <p class="ecosystemSummaryTitle">
+        <a href="{{ include.entry.url }}">{{ include.entry.name }}</a>
+    </p>
+    <p class="ecosystemSummaryAuthor">
+        {{ include.entry.developers }}
+    </p>
+    <p class="ecosystemSummarySummary">
+        {{ include.entry.summary }}
+    </p>
+    <!-- TODO: add this in later, once there are more things to include
+    <ul class="ecosystemSummaryExtras">
+        <li>{{ include.entry.license }}</li>
+    </ul>
+    -->
+</div>

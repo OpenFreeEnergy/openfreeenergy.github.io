@@ -1,0 +1,22 @@
+---
+title: Ecosystem
+permalink: /ecosystem/
+description: >-
+  Other tools in the OpenFE ecosystem.
+---
+
+{% assign grouped = site.ecosystem | group_by:"category" %}
+{% for category in site.ecosystem_catalog.category_labels %}
+<h3>{{ category[1] }}</h3>
+  {% assign cat_plugins = grouped | where: "name", category[0] %}
+  {% comment %}
+  There can only be one object in grouped with the appropriate name, so we
+  take cat_plugins[0]. We loop over them as li (as opposed to creating a
+  structure of divs) because that's better for screenreaders.
+  {% endcomment %}
+  <ul class="ecosystemSummaryList">
+    {% for plugin in cat_plugins[0].items %}
+    <li class="ecosystemSummaryItem">{% include ecosystem-summary.html entry=plugin %}</li>
+    {% endfor %}
+  </ul>
+{% endfor %}

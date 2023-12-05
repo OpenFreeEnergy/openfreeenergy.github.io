@@ -105,3 +105,82 @@ code {
 }
 
 
+// for the ecosystem summary entries (e.g., ecosystem.html)
+ul.ecosystemSummaryList {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+li.ecosystemSummaryItem {
+    display: inline-block;
+    flex: 0 0 45%;
+    vertical-align: top;
+    border: 1px solid var(--other-blue);
+    padding: 1ex;
+    box-shadow: 2px 2px 2px var(--beastly-grey);
+}
+
+div.ecosystemSummary {
+    float: left;
+    margin-bottom: 0px;
+    margin-block-start: 0px;
+    height: 100%;
+}
+
+.ecosystemSummary p {
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+p.ecosystemSummaryTitle {
+    font-size: 1.0em;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+p.ecosystemSummaryAuthor {
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+p.ecosystemSummarySummary {
+    font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1.1em;
+}
+
+ul.ecosystemSummaryExtras {
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+ul.ecosystemSummaryExtras li {
+    display: inline-block;
+}
+
+// switch to 1-column layout for mobile
+@media screen and (max-width: 639px) {
+    ul.ecosystemSummaryList {
+        flex-flow: column nowrap;
+    }
+}
+
+
+// for the ecosystem entries (individual pages)
+.ecosystemEntry {
+    overflow: auto;
+}
+
+div.ecosystemDetailsBox {
+    width: 45%;
+    float: right;
+    color: var(--beastly-grey);
+    border: 1px solid var(--other-blue);
+    padding: 1ex;
+    margin: 1ex;
+}
+
+div.ecosystemDetailsBox p {
+    font-size: 1.0em;
+}

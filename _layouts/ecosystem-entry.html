@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<div class="ecosystemEntry">
+
+<div class="ecosystemDetailsBox">
+<dl>
+    <dt>Developers</dt>
+    <dd>{{ page.developers }}</dd>
+    <dt>Source code</dt>
+    <!-- TODO: extract GitHub links to make prettier -->
+    <dd><a href="{{ page.source }}">{{ page.source }}</a></dd>
+    <dt>License</dt>
+    <dd>{{ page.license }}</dd> <!-- TODO: link known licenses -->
+</dl>
+{{ page.summary | markdownify }}
+</div>
+
+<p><span class="ecosystemCategoryLabel">
+    {% assign label = site.ecosystem_catalog.category_labels[page.category] %}
+    {{ label | upcase }}
+</span></p>
+
+{{ page.content | markdownify }}
+
+</div>

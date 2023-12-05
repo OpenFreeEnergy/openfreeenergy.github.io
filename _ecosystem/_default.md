@@ -1,0 +1,19 @@
+---
+name: <NAME OF ENTRY>
+category: <CATEGORY>
+developers: <DEVELOPERS AS A STRING>
+source: <URL FOR SOURCE CODE>
+license: <STRING NAME OF LICENSE>
+summary: >-
+  <ADD SUMMARY HERE>
+
+### FOLLOWING ARE OPTIONAL
+# docs: <URL FOR DOCUMENTATION>
+# contact: <EMAIL FOR CONTACT>
+# publications:
+#   - <LIST OF DOI>
+# thumbnail:
+#   src: <URL FOR THUMBNAIL IMAGE>
+#   alt: <ALT TEXT FOR THUMBNAIL>
+---
+<FREE FORM LONG DESCRIPTION HERE>
