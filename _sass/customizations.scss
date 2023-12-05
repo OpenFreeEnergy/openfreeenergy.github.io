@@ -181,6 +181,21 @@ div.ecosystemDetailsBox {
     margin: 1ex;
 }
 
+div.ecosystemDetailsBox dd.ecosystemEntrySourceCode {
+    // if URL for source is too long, use ellipsis
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 div.ecosystemDetailsBox p {
     font-size: 1.0em;
+}
+
+@media screen and (max-width: 639px) {
+    div.ecosystemDetailsBox {
+        width: 90%;
+        float: left;
+    }
+
 }
