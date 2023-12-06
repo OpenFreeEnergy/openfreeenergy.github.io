@@ -18,14 +18,27 @@ layout: page
     <dd class="ecosystemEntryLicense">
         {{ page.license }}
     </dd> <!-- TODO: link known licenses -->
+    <dt>Plugins</dt>
+    <dd class="ecosystemEntryPlugins">
+        <ul>
+            {% for category in site.ecosystem_catalog.categories %}
+            {% for plugin in page[category.name] %}
+            <li>{{ plugin.name }}</li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
+    </dd>
 </dl>
 {{ page.summary | markdownify }}
 </div>
 
-<p><span class="ecosystemCategoryLabel">
-    {% assign label = site.ecosystem_catalog.category_labels[page.category] %}
-    {{ label | upcase }}
-</span></p>
+<ul class="ecosystemCategoryTag">
+  {% for category in site.ecosystem_catalog.categories %}
+    {% if page[category.name] %}
+      <li>{{ category.label | upcase }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 {{ page.content | markdownify }}
 

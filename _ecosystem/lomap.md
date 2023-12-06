@@ -1,12 +1,18 @@
 ---
-name: LOMAP Atom Mapper
-category: atommapper
+title: LOMAP
 developers: Mobley Lab and Open Free Energy
 source: https://github.com/openfreeenergy/Lomap
+conda-forge: lomap2
 license: MIT
-summary: >-
-  The LOMAP atom mapper is based on a maximum common substructure approach to
-  detemine the mapping between two ligands.
+atommappers:
+  - name: LomapAtomMapper
+    description: >-
+      The LOMAP atom mapper is based on a maximum common substructure approach
+      to detemine the mapping between two ligands.
+networkplanners:
+  - name: LomapNetworkPlanner
+    description: >-
+      lorem ipsum
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

@@ -36,6 +36,14 @@ collections:
     output: true
 
 ecosystem_catalog:
+  categories:
+    # name is the name used in YAML; label is the natural language label
+    - name: "atommappers"
+      label: "Atom Mappers"
+    - name: "networkplanners"
+      label: "Network Planners"
+    - name: "protocols"
+      label: "Protocols"
   category_labels:
     atommapper: "Atom Mappers"
     networkplanner: "Network Planners"

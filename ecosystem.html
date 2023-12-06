@@ -4,19 +4,27 @@ permalink: /ecosystem/
 description: >-
   Other tools in the OpenFE ecosystem.
 ---
+{% comment %}
+I don't exactly love this setup, because it scales as n_categories *
+n_ecosystem_projects. However, AFAICT, Jekyll/liquid doesn't have proper
+mappings.
+{% endcomment %}
 
 {% assign grouped = site.ecosystem | group_by:"category" %}
-{% for category in site.ecosystem_catalog.category_labels %}
-<h3>{{ category[1] }}</h3>
-  {% assign cat_plugins = grouped | where: "name", category[0] %}
+{% for category in site.ecosystem_catalog.categories %}
+<h3>{{ category.label }}</h3>
   {% comment %}
-  There can only be one object in grouped with the appropriate name, so we
-  take cat_plugins[0]. We loop over them as li (as opposed to creating a
-  structure of divs) because that's better for screenreaders.
+  Loop as list (as opposed to creating a structure of divs) because that's
+  better for screenreaders.
   {% endcomment %}
   <ul class="ecosystemSummaryList">
-    {% for plugin in cat_plugins[0].items %}
-    <li class="ecosystemSummaryItem">{% include ecosystem-summary.html entry=plugin %}</li>
+  {% for project in site.ecosystem %}
+    {% assign cat_plugins = project[category.name] %}
+    {% for plugin in cat_plugins %}
+    <li class="ecosystemSummaryItem">
+      {% include ecosystem-summary.html plugin=plugin project=project %}
+    </li>
     {% endfor %}
+  {% endfor %}
   </ul>
 {% endfor %}
