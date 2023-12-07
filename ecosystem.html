@@ -10,7 +10,6 @@ n_ecosystem_projects. However, AFAICT, Jekyll/liquid doesn't have proper
 mappings.
 {% endcomment %}
 
-{% assign grouped = site.ecosystem | group_by:"category" %}
 {% for category in site.ecosystem_catalog.categories %}
 <h3>{{ category.label }}</h3>
   {% comment %}

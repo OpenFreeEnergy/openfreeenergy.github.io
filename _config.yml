@@ -36,6 +36,7 @@ collections:
     output: true
 
 ecosystem_catalog:
+  collection: "ecosystem"
   categories:
     # name is the name used in YAML; label is the natural language label
     - name: "atommappers"
@@ -44,10 +45,6 @@ ecosystem_catalog:
       label: "Network Planners"
     - name: "protocols"
       label: "Protocols"
-  category_labels:
-    atommapper: "Atom Mappers"
-    networkplanner: "Network Planners"
-    protocol: "Protocols"
 
 paginate: 10
 paginate_path: "/news/:num/"
