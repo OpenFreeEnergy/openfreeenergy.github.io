@@ -41,6 +41,8 @@ ecosystem_catalog:
     # name is the name used in YAML; label is the natural language label
     - name: "atommappers"
       label: "Atom Mappers"
+    - name: "scorers"
+      label: "Mapping Scorers"
     - name: "networkplanners"
       label: "Network Planners"
     - name: "protocols"
