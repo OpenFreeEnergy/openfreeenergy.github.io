@@ -12,8 +12,13 @@ This `include` takes `package` and `plugin` arguments.
     <p class="ecosystemSummaryAuthor">
         {{ include.project.developers }}
     </p>
+    <p class="ecosystemSummaryProject">
+       Part of <a href="{{ include.project.url }}">
+           {{ include.project.title }}
+       </a>
+    </p>
     <p class="ecosystemSummarySummary">
-        {{ include.plugin.description }}
+        {{ include.plugin.description | markdownify }}
     </p>
     <!-- TODO: add this in later, once there are more things to include
     <ul class="ecosystemSummaryExtras">

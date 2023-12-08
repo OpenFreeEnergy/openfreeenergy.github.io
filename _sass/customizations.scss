@@ -139,6 +139,11 @@ p.ecosystemSummaryTitle {
     margin-top: 5px;
 }
 
+p.ecosystemSummaryProject {
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
 p.ecosystemSummaryAuthor {
     font-size: 0.5em;
     font-weight: 300;
@@ -172,7 +177,7 @@ ul.ecosystemSummaryExtras li {
     overflow: auto;
 }
 
-div.ecosystemDetailsBox {
+.ecosystemDetailsBox {
     width: 45%;
     float: right;
     color: var(--beastly-grey);
@@ -181,21 +186,44 @@ div.ecosystemDetailsBox {
     margin: 1ex;
 }
 
-div.ecosystemDetailsBox dd.ecosystemEntrySourceCode {
+.ecosystemDetailsBox dd.ecosystemEntryLink {
     // if URL for source is too long, use ellipsis
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-div.ecosystemDetailsBox p {
+.ecosystemDetailsBox ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 0em;
+}
+
+.ecosystemEntryInstallation ul {
+    list-style-type: "";
+    padding: 0ex;
+}
+
+.ecosystemEntryInstallation kbd {
+    margin-bottom: 0em;
+}
+
+.ecosystemDetailsBox li {
+    font-size: 1em;
+}
+
+.ecosystemDetailsBox pre {
+    margin-top: 0em;
+}
+
+.ecosystemDetailsBox p {
     font-size: 1.0em;
 }
 
 @media screen and (max-width: 639px) {
-    div.ecosystemDetailsBox {
+    .ecosystemDetailsBox {
         width: 90%;
-        float: left;
+        float: none;
     }
 
 }

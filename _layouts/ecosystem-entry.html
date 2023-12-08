@@ -4,16 +4,39 @@ layout: page
 
 <div class="ecosystemEntry">
 
-<!-- TODO: this should probably be converted to an HTML5 <aside> -->
-<div class="ecosystemDetailsBox">
+<aside class="ecosystemDetailsBox">
 <dl>
     <dt>Developers</dt>
     <dd class="ecosystemEntryDevelopers">{{ page.developers }}</dd>
+    <!-- TODO: add contact link (obfuscate?) -->
     <dt>Source code</dt>
     <!-- TODO: extract GitHub links to make prettier -->
-    <dd class="ecosystemEntrySourceCode">
+    <dd class="ecosystemEntryLink">
         <a href="{{ page.source }}">{{ page.source }}</a>
     </dd>
+    {% if page.docs %}
+    <dt>Documentation</dt>
+    <dd class="ecosystemEntryLink">
+        <a href="{{ page.docs }}">{{ page.docs }}</a>
+    </dd>
+    {% endif %}
+    {% if page.conda-forge or page.pypi %}
+    <dt>Installation</dt>
+    <dd class="ecosystemEntryInstallation">
+        <ul>
+            {% if page.conda-forge %}
+            <li>
+            <kbd>mamba install -c conda-forge {{ page.conda-forge }}</kbd>
+            </li>
+            {% endif %}
+            {% if page.pypi %}
+            <li>
+            <kbd>python -m pip install {{ page.pypi }}</kbd>
+            </li>
+            {% endif %}
+        </ul>
+    </dd>
+    {% endif %}
     <dt>License</dt>
     <dd class="ecosystemEntryLicense">
         {{ page.license }}
@@ -28,9 +51,19 @@ layout: page
             {% endfor %}
         </ul>
     </dd>
+    {% if page.publications %}
+    <dt>Publications</dt>
+    <dd class="ecosystemEntryPublications">
+        <ul>
+            {% for pub in page.publications %}
+            <li><a href="{{ pub }}">{{ pub }}</a></li>
+            {% endfor %}
+        </ul>
+    </dd>
+    {% endif %}
 </dl>
 {{ page.summary | markdownify }}
-</div>
+</aside>
 
 <ul class="ecosystemCategoryTag">
   {% for category in site.ecosystem_catalog.categories %}
