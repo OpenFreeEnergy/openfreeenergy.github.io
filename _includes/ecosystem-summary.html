@@ -9,17 +9,20 @@ This `include` takes `package` and `plugin` arguments.
     <p class="ecosystemSummaryTitle">
         <a href="{{ include.project.url }}">{{ include.plugin.name }}</a>
     </p>
-    <p class="ecosystemSummaryAuthor">
+    <address class="ecosystemSummaryAuthor">
         {{ include.project.developers }}
-    </p>
-    <p class="ecosystemSummaryProject">
-       Part of <a href="{{ include.project.url }}">
-           {{ include.project.title }}
-       </a>
-    </p>
-    <p class="ecosystemSummarySummary">
+        <br />
+        <span class="part-of-project">
+        Part of <a href="{{ include.project.url }}">
+            {{ include.project.title }}
+        </a>
+        </span>
+    </address>
+    <address class="part-of-project">  <!-- address isn't right here -->
+    </address>
+    <div class="ecosystemSummarySummary">
         {{ include.plugin.description | markdownify }}
-    </p>
+    </div>
     <!-- TODO: add this in later, once there are more things to include
     <ul class="ecosystemSummaryExtras">
         <li>{{ include.package.license }}</li>

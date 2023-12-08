@@ -121,11 +121,12 @@ li.ecosystemSummaryItem {
     box-shadow: 2px 2px 2px var(--beastly-grey);
 }
 
-div.ecosystemSummary {
+.ecosystemSummary {
     float: left;
     margin-bottom: 0px;
     margin-block-start: 0px;
     height: 100%;
+    font-size: 1em;
 }
 
 .ecosystemSummary p {
@@ -133,23 +134,22 @@ div.ecosystemSummary {
     line-height: normal;
 }
 
+.ecosystemSummary address {
+    font-size: 0.5em;
+    font-weight: 300;
+    margin-bottom: 0em;
+}
+
+.part-of-project {
+    font-style: normal;
+}
+
 p.ecosystemSummaryTitle {
-    font-size: 1.0em;
     font-weight: 600;
     margin-top: 5px;
 }
 
-p.ecosystemSummaryProject {
-    font-size: 0.5em;
-    font-weight: 300;
-}
-
-p.ecosystemSummaryAuthor {
-    font-size: 0.5em;
-    font-weight: 300;
-}
-
-p.ecosystemSummarySummary {
+.ecosystemSummarySummary p {
     font-size: 0.8em;
     font-weight: 300;
     line-height: 1.1em;
