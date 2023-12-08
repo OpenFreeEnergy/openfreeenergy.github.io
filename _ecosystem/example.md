@@ -1,6 +1,5 @@
 ---
 title: An example plugin
-category: atommapper
 developers: Those cool cats at OpenFE
 source: https://github.com/openfreeenergy/openfreeenergy.github.io
 license: MIT
