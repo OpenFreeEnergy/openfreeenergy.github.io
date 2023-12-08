@@ -6,9 +6,9 @@ This `include` takes `package` and `plugin` arguments.
 {% endcomment %}
 
 <div class="ecosystemSummary" id="ecosystem-{{ include.plugin.name }}">
-    <p class="ecosystemSummaryTitle">
+    <h1>
         <a href="{{ include.project.url }}">{{ include.plugin.name }}</a>
-    </p>
+    </h1>
     <address class="ecosystemSummaryAuthor">
         {{ include.project.developers }}
         <br />
@@ -17,8 +17,6 @@ This `include` takes `package` and `plugin` arguments.
             {{ include.project.title }}
         </a>
         </span>
-    </address>
-    <address class="part-of-project">  <!-- address isn't right here -->
     </address>
     <div class="ecosystemSummarySummary">
         {{ include.plugin.description | markdownify }}

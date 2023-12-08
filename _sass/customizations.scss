@@ -144,9 +144,12 @@ li.ecosystemSummaryItem {
     font-style: normal;
 }
 
-p.ecosystemSummaryTitle {
+.ecosystemSummary h1 {
     font-weight: 600;
+    font-size: 1em;
+    line-height: 1.4em;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .ecosystemSummarySummary p {
