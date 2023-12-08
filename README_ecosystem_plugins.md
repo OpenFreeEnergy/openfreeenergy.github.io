@@ -20,11 +20,6 @@ you can work from.
 Add that file in a branch on your fork, and make a pull request to have your
 new entry added to the catalog!
 
-NOTE: Each ecosystem catalog entry should fit into exactly one category. If
-you've created a package that involves tools from multiple categories, please
-create multiple catalog entries. One pull request may contain as many catalog
-entries as you would like to add.
-
 ## Customizing ecosystem configuration
 
 The general idea  here is that catalog entries represent different "categories"
@@ -49,8 +44,6 @@ Catalog entries are shown in two different styles:
 1. Full-page mode, where a full web page is dedicated to each entry. This is
    intended to provide sufficient details for a reader to learn more about the
    entry. You can customize this mode in `_layouts/ecosystem-entry.html`. 
-2. Summary mode, where a brief summary of each entry is provided, e.g., as part
-   of a list of other catalog entries. You can customize this mode in
+2. Summary mode (cards), where a brief summary of each entry is provided, e.g.,
+   as part of a list of other catalog entries. You can customize this mode in
    `_includes/ecosystem-summary.html`.
-
-You can, of course, always create a custom page that loops over the 
