@@ -33,14 +33,14 @@ license: <STRING NAME OF LICENSE>
 #   description: >-
 #     <BRIEF DESCRIPTION OF PLUGIN>
 
-### FOLLOWING ARE OPTIONAL (none used in current template)
+### FOLLOWING ARE OPTIONAL
 # docs: <URL FOR DOCUMENTATION>
-# contact: <EMAIL FOR CONTACT>
+# contact: <EMAIL FOR CONTACT> (not used)
 # conda-forge: <INSTALL NAME FOR CONDA-FORGE>
 # pypi: <INSTALL NAME FOR PYPI>
 # publications:
 #   - <LIST OF DOI>
-# thumbnail:
+# thumbnail: (not used)
 #   src: <URL FOR THUMBNAIL IMAGE>
 #   alt: <ALT TEXT FOR THUMBNAIL>
 ---
