@@ -7,7 +7,7 @@
     link: https://github.com/openfreeenergy
     new_window: True
     social_icon: GitHub  # we'll need to get this from another source
-  - name: Publications
+  - name: openfreeenergy
     link: https://zenodo.org/communities/openfreeenergy
     new_window: True
-    social_icon: Zenodo # Not sure if this works
+    social_icon: Zenodo 
