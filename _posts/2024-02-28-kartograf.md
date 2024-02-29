@@ -256,7 +256,7 @@ included into workflows when planning RBFE networks. From the command line, the
 energy/en/stable/reference/cli/plan_rbfe_network.html) command can take a yaml file to customise the
 algorithms used.
 
-```json
+```yaml
 mapper:
 method: KartografAtomMapper
 settings:
