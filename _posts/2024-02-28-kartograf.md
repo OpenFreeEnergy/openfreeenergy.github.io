@@ -142,7 +142,7 @@ the molecules are well aligned, in order to find an atom mapping of the MCS. In
 our case, we have generated two molecules with independent coordinate spaces.
 With the alignment helper functions of kartograf, we can now generate a high
 coordinate overlap for our molecules. Here we use a helper for shape alignments
-from rdkit (link)
+from [RDKit](https://www.rdkit.org/):
 
 ```python
 ## Align the mols first - this might not needed, depends on input.
@@ -202,16 +202,22 @@ This visualization is important because you can see the coordinate influence on
 the atom mapping directly and most accurate.
 
 ## How can we build atom mappings with additional rules?
-Code example of kartograf w/ custom filters
+After now getting an intro into, how atom mappings can be build, let's have a look on how you can customize the mappings with additional rules.
 
-Here we start with a custom filter:
+Here we start with a custom filter, that removes element changes from our final mapping:
 ```python
-def custom_filter(
+def filter_element_changes(
 molA: Chem.Mol, molB: Chem.Mol, mapping: dict[int, int]
 ) -> dict[int, int]:
-filtered_mapping = {}
+    filtered_mapping = {}
 
-    #do something, but always return a dict with the filtered mapping!
+    for i, j in mapping.items():
+        if (
+            molA.GetAtomWithIdx(i).GetAtomicNum()
+            != molB.GetAtomWithIdx(j).GetAtomicNum()
+        ):
+            continue
+        filtered_mapping[i] = j
 
     return filtered_mapping
 ```
@@ -223,8 +229,9 @@ from kartograf import KartografAtomMapper
 # Build Kartograf Atom Mapper
 
 mapper = KartografAtomMapper(additional_mapping_filter_functions=[filter_element_changes])
-
+```
 Let’s map the molecules from the prior example again:
+```python
 kartograf_mapping = next(mapper.suggest_mappings(molA, a_molB))
 kartograf_mapping
 ```
@@ -233,8 +240,8 @@ kartograf_mapping
 And here the 3D representation:
 ![mapping_filter_3D.png](..%2Fassets%2Fimages%2Fposts%2Fkartograf%2Fmapping_filter_3D.png)
 
-Some of these Filters are already pre-implemented and can be found
-here (<link>):
+Some of these Filters are already pre-implemented and can be found in
+[kartograf/filters](https://github.com/OpenFreeEnergy/kartograf/tree/main/src/kartograf/filters):
 
 ```python
 from kargoraf.filters import (filter_atoms_h_only_h_mapped,
@@ -266,8 +273,7 @@ method: generate_minimal_spanning_network
 
 This `settings.yaml` will select the `KartografAtomMapper`, with some customised
 parameters to be used in planning a minimal spanning network.
-[link](https://docs.openfree.energy/en/latest/tutorials/rbfe_cli_tutorial).
-html#customize-you-campaign-setup)
+For further information checkout our [documentation](https://docs.openfree.energy/en/latest/tutorials/rbfe_cli_tutorial.html#customize-you-campaign-setup).
 
 
 Concluding, in this blog post, we discussed Kartograf's theory and showed you, how you can use Kartograf, customize it to your needs, and even seamlessly integrate it into your openFE workflow.
