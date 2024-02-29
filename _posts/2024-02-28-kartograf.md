@@ -276,6 +276,6 @@ For further information checkout our [documentation](https://docs.openfree.energ
 
 
 Concluding, in this blog post, we discussed Kartograf's theory and showed you, how you can use Kartograf, customize it to your needs, and even seamlessly integrate it into your openFE workflow.
-And before we forget, you are interested in Atom Mappings for multistate simulations? There is a [prototype for Kartograf](https://github.com/OpenFreeEnergy/kartograf/pull/12) doing this! If you want to try it we would love to get your feedback!
+And before we forget, you are interested in Atom Mappings for multistate simulations? There is a [multistate prototype for Kartograf](https://github.com/OpenFreeEnergy/kartograf/pull/12) doing this! If you want to try it we would love to get your feedback!
 
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
