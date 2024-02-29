@@ -256,8 +256,7 @@ filter_whole_rings_only,
 ## Can I use Kartograf directly from OpenFE?
 The kartograf tool has been integrated into the openfe ecosystem and can be
 included into workflows when planning RBFE networks. From the command line, the
-[`openfe plan-rbfe-network`](https://docs.openfree.energy/en/latest/reference/cli/plan_rbfe_network.html).
-energy/en/stable/reference/cli/plan_rbfe_network.html) command can take a yaml file to customise the
+[`openfe plan-rbfe-network`](https://docs.openfree.energy/en/latest/reference/cli/plan_rbfe_network.html) command can take a yaml file to customise the
 algorithms used.
 
 ```yaml
