@@ -162,20 +162,17 @@ Chem.Mol, Chem.Mol, dict[int, int]], dict[int, int]]]] = None,
 )
 ```
 A variety of settings can be set here:
-* **atom_max_distance : float** - geometric criteria for two atoms, how 
+* **atom_max_distance : float** - geometric criteria for two to be mapped atoms, how 
 far their distance can be maximal (in Angstrom). Default 0.95
 * **map_hydrogens_on_hydrogens_only : bool** - 
-            map hydrogens only on hydrogens. Default False
+            map hydrogens only on hydrogens.
 * **map_exact_ring_matches_only : bool** - if true, only rings 
-  with matching ringsize and same bond-orders
-            will be mapped. Additionally no ring-breaking is permitted. default
-            False
+  with matching ringsize and same bond-orders will be mapped. Additionally no ring-breaking is permitted.
 * **additional_mapping_filter_functions : Iterable[Callable[[Chem.Mol,
         Chem.Mol, Dict[int, int]], Dict[int, int]]]** - with this optional parameter you can further filter the distance
             based mappings with your own custom filters, provided as iterables.
             as default we suggest to avoid ring size/breaking changes and only
-            allow whole rings to be mapped. This option will be explained in 
-  more detail further down.
+            allow whole rings to be mapped. This option will be explained in more detail further down.
 
 
 Let’s map the molecules with:
