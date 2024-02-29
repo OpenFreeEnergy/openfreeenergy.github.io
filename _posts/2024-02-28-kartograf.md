@@ -1,5 +1,4 @@
-Should I make this or that molecule? Relative Binding Free Energies - 
-Setup: About mapping atoms with Kartograf.
+Relative Free Energy Calculation Setup: About mapping atoms with Kartograf
 ==================================================================================================================
 
 In drug design or material sciences, thermodynamic properties of molecules are
@@ -28,8 +27,7 @@ fundamental steps in the simulation process. Keep in mind that there are many
 different approaches out there, which we would like to cover in later posts.
 Atom mappings and their use for RBFEs
 
-Recently we published an article in [JCTC about Kartograf ](https://pubs.acs.org/doi/10.1021/acs.jctc.3c01206).
-md), a new atom mapping
+Recently we published an article in [JCTC about Kartograf ](https://pubs.acs.org/doi/10.1021/acs.jctc.3c01206), a new atom mapping
 algorithm, based on an old idea. This is a very nice chemoinformatics problem,
 but you might want to ask, what does it have to do with RBFEs?
 
@@ -39,8 +37,8 @@ but you might want to ask, what does it have to do with RBFEs?
 In RBFE simulations, two small molecules of interest are simultaneously
 simulated in a given environment (the protein or the water box). The
 contributions of the different molecules in the simulation are slowly turned
-from one molecule to the other (in steps like molA 100%/ molB 0%; molA 90%/ molB
-10%; molA 80%/ molB 20%; … molA 0%/ molB 100%)
+from one molecule to the other (in steps like molA 100% / molB 0%; molA 90% / 
+molB 10%; molA 80% / molB 20%; … molA 0% / molB 100%)
 
 One question is, how should those molecules be represented in the simulation?
 There are many different approaches out there that answer this question slightly
@@ -156,8 +154,22 @@ additional_mapping_filter_functions: Optional[Iterable[Callable[[
 Chem.Mol, Chem.Mol, dict[int, int]], dict[int, int]]]] = None,
 )
 ```
+A variety of settings can be set here:
+* **atom_max_distance : float** - geometric criteria for two atoms, how 
+far their distance can be maximal (in Angstrom). Default 0.95
+* **map_hydrogens_on_hydrogens_only : bool** - 
+            map hydrogens only on hydrogens. Default False
+* **map_exact_ring_matches_only : bool** - if true, only rings 
+  with matching ringsize and same bond-orders
+            will be mapped. Additionally no ring-breaking is permitted. default
+            False
+* **additional_mapping_filter_functions : Iterable[Callable[[Chem.Mol,
+        Chem.Mol, Dict[int, int]], Dict[int, int]]]** - with this optional parameter you can further filter the distance
+            based mappings with your own custom filters, provided as iterables.
+            as default we suggest to avoid ring size/breaking changes and only
+            allow whole rings to be mapped. This option will be explained in 
+  more detail further down.
 
-<Explain settings here>
 
 Let’s map the molecules with:
 ```python
@@ -206,8 +218,7 @@ from kartograf import KartografAtomMapper
 
 # Build Kartograf Atom Mapper
 
-mapper = KartografAtomMapper(
-additional_mapping_filter_functions=[filter_element_changes])
+mapper = KartografAtomMapper(additional_mapping_filter_functions=[filter_element_changes])
 
 Let’s map the molecules from the prior example again:
 kartograf_mapping = next(mapper.suggest_mappings(molA, a_molB))
@@ -251,7 +262,10 @@ method: generate_minimal_spanning_network
 
 This `settings.yaml` will select the `KartografAtomMapper`, with some customised
 parameters to be used in planning a minimal spanning network.
+[link](https://docs.openfree.energy/en/latest/tutorials/rbfe_cli_tutorial).
+html#customize-you-campaign-setup)
 
-Link to documentation and wrap up
 
-License for text, code, images
+wrap up
+
+This work is licensed under CC BY 4.0 
