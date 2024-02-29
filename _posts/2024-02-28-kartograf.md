@@ -273,6 +273,6 @@ parameters to be used in planning a minimal spanning network.
 html#customize-you-campaign-setup)
 
 
-wrap up
+Concluding, in this blog post, we discussed Kartograf's theory and showed you, how you can use Kartograf, customize it to your needs, and even seamlessly integrate it into your openFE workflow.
 
 This work is licensed under CC BY 4.0 
