@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Relative Free Energy Calculation Setup: About mapping atoms with Kartograf"
+categories: Setup Kartograf RBFEs RelativeFreeEnergies
+---
+
+
 Relative Free Energy Calculation Setup: About mapping atoms with Kartograf
 ==================================================================================================================
 
