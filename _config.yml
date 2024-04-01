@@ -32,6 +32,21 @@ collections:
   projects:
   jobs:
     output: true
+  ecosystem:
+    output: true
+
+ecosystem_catalog:
+  collection: "ecosystem"
+  categories:
+    # name is the name used in YAML; label is the natural language label
+    - name: "atommappers"
+      label: "Atom Mappers"
+    - name: "scorers"
+      label: "Mapping Scorers"
+    - name: "networkplanners"
+      label: "Network Planners"
+    - name: "protocols"
+      label: "Protocols"
 
 paginate: 10
 paginate_path: "/news/:num/"
@@ -60,6 +75,11 @@ defaults:
       type: "jobs"
     values:
       layout: "job"
+  - scope:
+      path: ""
+      type: "ecosystem"
+    values:
+      layout: "ecosystem-entry"
   - scope:
       path: ""
     values:

@@ -1,0 +1,29 @@
+---
+title: Ecosystem
+permalink: /ecosystem/
+description: >-
+  Other tools in the OpenFE ecosystem.
+---
+{% comment %}
+I don't exactly love this setup, because it scales as n_categories *
+n_ecosystem_projects. However, AFAICT, Jekyll/liquid doesn't have proper
+mappings.
+{% endcomment %}
+
+{% for category in site.ecosystem_catalog.categories %}
+<h3>{{ category.label }}</h3>
+  {% comment %}
+  Loop as list (as opposed to creating a structure of divs) because that's
+  better for screenreaders.
+  {% endcomment %}
+  <ul class="ecosystemSummaryList">
+  {% for project in site.ecosystem %}
+    {% assign cat_plugins = project[category.name] %}
+    {% for plugin in cat_plugins %}
+    <li class="ecosystemSummaryItem">
+      {% include ecosystem-summary.html plugin=plugin project=project %}
+    </li>
+    {% endfor %}
+  {% endfor %}
+  </ul>
+{% endfor %}

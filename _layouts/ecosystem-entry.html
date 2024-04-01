@@ -1,0 +1,77 @@
+---
+layout: page
+---
+
+<div class="ecosystemEntry">
+
+<aside class="ecosystemDetailsBox">
+<dl>
+    <dt>Developers</dt>
+    <dd class="ecosystemEntryDevelopers">{{ page.developers }}</dd>
+    <!-- TODO: add contact link (obfuscate?) -->
+    <dt>Source code</dt>
+    <!-- TODO: extract GitHub links to make prettier -->
+    <dd class="ecosystemEntryLink">
+        <a href="{{ page.source }}">{{ page.source }}</a>
+    </dd>
+    {% if page.docs %}
+    <dt>Documentation</dt>
+    <dd class="ecosystemEntryLink">
+        <a href="{{ page.docs }}">{{ page.docs }}</a>
+    </dd>
+    {% endif %}
+    {% if page.conda-forge or page.pypi %}
+    <dt>Installation</dt>
+    <dd class="ecosystemEntryInstallation">
+        <ul>
+            {% if page.conda-forge %}
+            <li>
+            <kbd>mamba install -c conda-forge {{ page.conda-forge }}</kbd>
+            </li>
+            {% endif %}
+            {% if page.pypi %}
+            <li>
+            <kbd>python -m pip install {{ page.pypi }}</kbd>
+            </li>
+            {% endif %}
+        </ul>
+    </dd>
+    {% endif %}
+    <dt>License</dt>
+    <dd class="ecosystemEntryLicense">
+        {{ page.license }}
+    </dd> <!-- TODO: link known licenses -->
+    <dt>Plugins</dt>
+    <dd class="ecosystemEntryPlugins">
+        <ul>
+            {% for category in site.ecosystem_catalog.categories %}
+            {% for plugin in page[category.name] %}
+            <li>{{ plugin.name }}</li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
+    </dd>
+    {% if page.publications %}
+    <dt>Publications</dt>
+    <dd class="ecosystemEntryPublications">
+        <ul>
+            {% for pub in page.publications %}
+            <li><a href="{{ pub }}">{{ pub }}</a></li>
+            {% endfor %}
+        </ul>
+    </dd>
+    {% endif %}
+</dl>
+</aside>
+
+<ul class="ecosystemCategoryTag">
+  {% for category in site.ecosystem_catalog.categories %}
+    {% if page[category.name] %}
+      <li>{{ category.label | upcase }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{{ page.content | markdownify }}
+
+</div>

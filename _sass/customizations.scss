@@ -114,3 +114,128 @@ code {
 }
 
 
+// for the ecosystem summary entries (e.g., ecosystem.html)
+ul.ecosystemSummaryList {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+li.ecosystemSummaryItem {
+    display: inline-block;
+    flex: 0 0 45%;
+    vertical-align: top;
+    border: 1px solid var(--other-blue);
+    padding: 1ex;
+    box-shadow: 2px 2px 2px var(--beastly-grey);
+}
+
+.ecosystemSummary {
+    float: left;
+    margin-bottom: 0px;
+    margin-block-start: 0px;
+    height: 100%;
+    font-size: 1em;
+}
+
+.ecosystemSummary p {
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+.ecosystemSummary address {
+    font-size: 0.5em;
+    font-weight: 300;
+    margin-bottom: 0em;
+}
+
+.part-of-project {
+    font-style: normal;
+}
+
+.ecosystemSummary h1 {
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ecosystemSummarySummary p {
+    font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1.1em;
+}
+
+ul.ecosystemSummaryExtras {
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+ul.ecosystemSummaryExtras li {
+    display: inline-block;
+}
+
+// switch to 1-column layout for mobile
+@media screen and (max-width: 639px) {
+    ul.ecosystemSummaryList {
+        flex-flow: column nowrap;
+    }
+}
+
+
+// for the ecosystem entries (individual pages)
+.ecosystemEntry {
+    overflow: auto;
+}
+
+.ecosystemDetailsBox {
+    width: 45%;
+    float: right;
+    color: var(--beastly-grey);
+    border: 1px solid var(--other-blue);
+    padding: 1ex;
+    margin: 1ex;
+}
+
+.ecosystemDetailsBox dd.ecosystemEntryLink {
+    // if URL for source is too long, use ellipsis
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ecosystemDetailsBox ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 0em;
+}
+
+.ecosystemEntryInstallation ul {
+    list-style-type: "";
+    padding: 0ex;
+}
+
+.ecosystemEntryInstallation kbd {
+    margin-bottom: 0em;
+}
+
+.ecosystemDetailsBox li {
+    font-size: 1em;
+}
+
+.ecosystemDetailsBox pre {
+    margin-top: 0em;
+}
+
+.ecosystemDetailsBox p {
+    font-size: 1.0em;
+}
+
+@media screen and (max-width: 639px) {
+    .ecosystemDetailsBox {
+        width: 90%;
+        float: none;
+    }
+
+}
