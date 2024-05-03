@@ -10,6 +10,10 @@
   link: /team/
   new_window: False
   highlight: False
+- name: News
+  link: /news/
+  new_window: False
+  highlight: False
 - name: Getting involved
   link: /getting_involved/
   new_window: False
