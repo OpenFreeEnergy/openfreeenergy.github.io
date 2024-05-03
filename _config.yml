@@ -32,6 +32,7 @@ collections:
   projects:
   jobs:
     output: true
+  news:
 
 paginate: 10
 paginate_path: "/news/:num/"

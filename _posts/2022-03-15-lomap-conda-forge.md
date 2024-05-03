@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lomap 2.0 released on conda-forge"
-categories: lomap release
+categories: release
 ---
 
 We've released [Lomap](http://github.com/OpenFreeEnergy/Lomap) 2.0 on

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenFE 1.0: Stable release!"
-categories: openfe release
+categories: release
 ---
 
 We are thrilled to announce the release of OpenFE v1.0, an open source Python package for performing alchemical free energy calculations.  OpenFE is the flagship package of the Open Free Energy project, a nonprofit pre-competitive consortium hosted by the Open Molecular Software Foundation (OMSF).
