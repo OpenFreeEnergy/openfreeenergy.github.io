@@ -37,5 +37,4 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 - [Janssen Pharmaceutica NV](https://www.janssen.com/)
 - [Merck KGaA](https://www.merckgroup.com/en)
 - [Nurix Therapeutics](https://www.nurixtx.com/)
-- [Redesign Science Inc](https://www.redesignscience.com/)
 - And others...
