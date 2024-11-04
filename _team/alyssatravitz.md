@@ -6,5 +6,5 @@ github: atravitz
 scholar: citations?user=Rm4jcz4AAAAJ&hl=en
 blurb: >-
   Alyssa joined OpenFE in October 2024.
-order:
+order: 1
 ---
