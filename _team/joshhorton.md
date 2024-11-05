@@ -8,5 +8,5 @@ blurb: >-
   Josh received his Ph.D from the University of Newcastle in the Cole group. His research is focused on developing 
   bespoke atomistic models based on highly accurate quantum chemical calculations to aid in efficient computer-aided 
   drug design and has a track record of encapsulating these workflows in open-source software.  
-order:
+order: 1
 ---

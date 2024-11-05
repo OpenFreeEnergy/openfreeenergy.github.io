@@ -13,5 +13,5 @@ blurb: >-
   During his time at OpenFE, David worked on various parts of our infrastructure
   including but not limited to; the underlying API (e.g. gufe), the openfe CLI,
   and a new execution engine (Exorcist).
-order: 1
+order: 2
 ---
