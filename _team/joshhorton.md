@@ -6,5 +6,5 @@ github: jthorton
 scholar: citations?user=qmngJQsAAAAJ&hl=en
 blurb: >-
   Josh joined OpenFE in October 2024.
-order:
+order: 1
 ---
