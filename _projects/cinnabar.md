@@ -1,6 +1,6 @@
 ---
-name: Cinnabar
-repo: OpenFreeEnergy/Cinnabar
+name: cinnabar
+repo: OpenFreeEnergy/cinnabar
 conda-install: cinnabar
 role: maintainers
 description: >-
