@@ -1,6 +1,7 @@
 ---
 name: lomap
 repo: OpenFreeEnergy/Lomap
+docs: https://lomap.readthedocs.io
 conda-install: lomap2
 role: maintainers
 description: >-
