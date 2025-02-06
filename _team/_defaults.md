@@ -1,6 +1,7 @@
 ---
 name:
 position:
+affiliation:
 image_path:
 github:
 scholar:

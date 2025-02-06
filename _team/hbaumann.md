@@ -1,6 +1,7 @@
 ---
 name: Hannah Baumann
 position: Scientific Software and Method Developer
+affiliation: OpenFE Staff
 image_path: https://avatars.githubusercontent.com/u/43765638?s=400&u=3ed84cd4637bcdbdeca0bf50863d771b0e989710&v=4
 github: hannahbaumann
 scholar: citations?user=WsgtyHAAAAAJ&hl=en
