@@ -1,6 +1,7 @@
 ---
 name: James Baggs Eastwood
 position: Project Manager
+affiliation: OpenFE Staff
 image_path: /assets/images/team/JamesEastwood.jpg
 github: jameseastwood
 scholar:
