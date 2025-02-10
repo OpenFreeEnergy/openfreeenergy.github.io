@@ -6,5 +6,5 @@ image_path: /assets/images/team/IvanPulido.jpg
 github: ijpulidos
 scholar: citations?user=Rm4jcz4AAAAJ&hl=en
 blurb: >-
-order: 1
+order: 2
 ---

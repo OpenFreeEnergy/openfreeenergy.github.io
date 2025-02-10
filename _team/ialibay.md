@@ -13,5 +13,5 @@ blurb: >-
   acting as interim Infrastructure Lead since May 2024.
   In his spare time Irfan contributes to other open source projects notably
   the MDAnalysis library.
-order: 1
+order: 0
 ---
