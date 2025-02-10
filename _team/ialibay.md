@@ -1,6 +1,7 @@
 ---
 name: Irfan Alibay
 position: Science and Infrastructure Lead
+affiliation: OpenFE Staff
 image_path: /assets/images/team/IrfanAlibay.jpg
 github: IAlibay
 scholar: citations?user=te0aWHMAAAAJ&hl=en
