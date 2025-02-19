@@ -24,17 +24,14 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 
 ## Industry partners
 
-- [AbbVie](https://www.abbvie.com/)
 - [AstraZeneca](https://www.astrazeneca.com/)
 - [Bayer](https://www.bayer.com/en/)
 - [Boehringer Ingelheim](https://www.boehringer-ingelheim.com)
 - [Bristol Myers Squibb](https://www.bms.com/)
-- [Confo Therapeutics](https://www.confotherapeutics.com/)
 - [Eli Lilly](https://www.lilly.com/)
 - [Genentech, a member of the Roche Group](https://www.gene.com/)
 - [GSK](https://www.gsk.com/en-gb/)
 - [Interline Therapeutics](https://www.interlinetx.com/)
 - [Janssen Pharmaceutica NV](https://www.janssen.com/)
 - [Merck KGaA](https://www.merckgroup.com/en)
-- [Nurix Therapeutics](https://www.nurixtx.com/)
 - And others...
