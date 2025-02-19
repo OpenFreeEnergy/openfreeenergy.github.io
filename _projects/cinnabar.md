@@ -1,6 +1,7 @@
 ---
 name: cinnabar
 repo: OpenFreeEnergy/cinnabar
+docs: https://cinnabar.readthedocs.io
 conda-install: cinnabar
 role: maintainers
 description: >-
