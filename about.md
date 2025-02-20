@@ -34,4 +34,5 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 - [Interline Therapeutics](https://www.interlinetx.com/)
 - [Janssen Pharmaceutica NV](https://www.janssen.com/)
 - [Merck KGaA](https://www.merckgroup.com/en)
+- [Pfizer](https://www.pfizer.com/)
 - And others...
