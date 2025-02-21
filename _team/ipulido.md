@@ -4,7 +4,7 @@ position: Core Developer
 affiliation: Chodera Lab, MSKCC
 image_path: /assets/images/team/IvanPulido.jpg
 github: ijpulidos
-scholar: citations?user=Rm4jcz4AAAAJ&hl=en
+scholar: citations?user=lbC8CcQAAAAJ&hl=en
 blurb: >-
 order: 2
 ---
