@@ -1,7 +1,7 @@
 ---
 name: gufe
 repo: OpenFreeEnergy/gufe
-docs: https://gufe.readthedocs.io
+docs: https://gufe.openfree.energy
 conda-install: gufe
 role: developers
 description: >-
