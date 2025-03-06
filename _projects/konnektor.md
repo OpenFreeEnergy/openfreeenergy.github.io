@@ -1,7 +1,7 @@
 ---
 name: konnektor
 repo: OpenFreeEnergy/konnektor
-docs: https://konnektor.readthedocs.org
+docs: https://konnektor.openfree.energy
 conda-install: konnektor
 role: developers
 description: >-
