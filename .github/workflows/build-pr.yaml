@@ -1,0 +1,38 @@
+name: Build from PR
+
+on: 
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+
+      - name: Build site
+        uses: omsf-eco-infra/static-site-tools/build/jekyll@main
+        with:
+          base-url: ""
+
+      - name: Test site
+        uses: omsf-eco-infra/static-site-tools/common-tests@main
+        with:
+          site-directory: public
+          base-url: ""
+
+      - name: Make artifact
+        shell: bash
+        run: tar czf site.tar.gz public
+
+      - name: Upload artifact
+        if: ${{ github.event_name != 'schedule' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-build
+          path: site.tar.gz
+          if-no-files-found: error
+          retention-days: 1
