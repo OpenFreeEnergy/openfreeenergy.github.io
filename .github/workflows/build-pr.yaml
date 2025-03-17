@@ -19,15 +19,15 @@ jobs:
           base-url: ""
 
 # TODO: add our own tests here?
-#      - name: Test site
-#        uses: omsf-eco-infra/static-site-tools/common-tests@main
-#        with:
-#          site-directory: public
-#          base-url: ""
+      - name: Test site
+        uses: omsf-eco-infra/static-site-tools/common-tests@main
+        with:
+          site-directory: _site
+          base-url: ""
 
       - name: Make artifact
         shell: bash
-        run: tar czf site.tar.gz public
+        run: tar czf site.tar.gz _site
 
       - name: Upload artifact
         if: ${{ github.event_name != 'schedule' }}
