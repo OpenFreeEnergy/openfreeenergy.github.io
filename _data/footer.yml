@@ -1,8 +1,8 @@
 - links:
-  - name: "@OpenFreeEnergy"
-    link: https://twitter.com/openfreeenergy
+  - name: "@OpenFree.Energy"
+    link: https://bsky.app/profile/openfree.energy
     new_window: True
-    social_icon: Twitter
+    social_icon: Bluesky
   - name: OpenFreeEnergy
     link: https://github.com/openfreeenergy
     new_window: True
