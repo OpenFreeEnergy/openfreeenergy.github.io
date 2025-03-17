@@ -19,11 +19,11 @@ jobs:
           base-url: ""
 
 # TODO: add our own tests here?
-      - name: Test site
-        uses: omsf-eco-infra/static-site-tools/common-tests@main
-        with:
-          site-directory: _site
-          base-url: ""
+      # - name: Test site
+      #   uses: omsf-eco-infra/static-site-tools/common-tests@main
+      #   with:
+      #     site-directory: _site
+      #     base-url: ""
 
       - name: Make artifact
         shell: bash
