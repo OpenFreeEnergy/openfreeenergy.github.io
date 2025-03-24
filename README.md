@@ -1,5 +1,7 @@
 # Website for OpenFreeEnergy
 
+## Build with conda
+
 To build the website locally, you'll create a
 [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation)
 environment and install the website's bundle within that. Once you have conda
@@ -24,7 +26,21 @@ or, if you want to have the website automatically update as you make changes:
 bundle exec jekyll serve --watch
 ```
 
-Contents:
+## Build with docker
+
+If you have docker installed, you don't need to install anything else to build the website and view it.
+
+Run:
+
+```bash
+docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+```
+
+And then go to http://0.0.0.0:4000 to view the website.
+It will create the website in the  `_site` folder and it will be owned by root.
+To remove the folder run `sudo rm -fr _site/`.
+
+## Contents
 
 * [Adding news items](#adding-news-items)
 * [Adding new team members](#adding-new-team-members)
