@@ -38,7 +38,8 @@ docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
 
 And then go to http://0.0.0.0:4000 to view the website.
 It will create the website in the  `_site` folder and it will be owned by root.
-To remove the folder run `sudo rm -fr _site/`.
+Depending on your OS, the `_site` directory may be owned by root (instead of your user), and you will need to use `sudo` to remove it.
+
 
 ## Contents
 
