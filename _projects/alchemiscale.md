@@ -5,5 +5,6 @@ docs: https://docs.alchemiscale.org/en/latest/
 conda-install: alchemiscale-client
 role: developers
 description: >-
-  [Alchemiscale](https://alchemiscale.org/)
+# TODO: add description including a link to [Alchemiscale](https://alchemiscale.org/)
+
 ---
