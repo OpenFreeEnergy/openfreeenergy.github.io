@@ -1,10 +1,13 @@
 ---
 name: alchemiscale
 repo: OpenFreeEnergy/alchemiscale
-docs: https://docs.alchemiscale.org/en/latest/
+docs: https://docs.alchemiscale.org
 conda-install: alchemiscale-client
 role: developers
 description: >-
-# TODO: add description including a link to [Alchemiscale](https://alchemiscale.org/)
-
+  [**alchemiscale**](https://alchemiscale.org/) is a distributed execution
+  system for alchemical transformation networks. It is suitable for utilizing
+  multiple compute resources, such as HPC clusters, Kubernetes clusters,
+  individual hosts, Folding@Home work servers, etc., to support large campaigns
+  requiring high-throughput.
 ---
