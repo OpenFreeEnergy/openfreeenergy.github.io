@@ -11,7 +11,7 @@ on:
 jobs:
   deploy-to-prod:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    uses: omsf-eco-infra/static-site-tools/.github/workflows/prod-cloudflare.yaml@main
+    uses: omsf/static-site-tools/.github/workflows/prod-cloudflare.yaml@main
     with:
       run-id: ${{ github.event.workflow_run.id }}
       project-name: ${{ vars.CLOUDFLARE_PROJECT_NAME }}

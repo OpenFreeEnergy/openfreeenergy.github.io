@@ -14,13 +14,13 @@ jobs:
           submodules: 'recursive'
 
       - name: Build site
-        uses: omsf-eco-infra/static-site-tools/build/jekyll@main
+        uses: omsf/static-site-tools/build/jekyll@main
         with:
           base-url: ""
 
 # TODO: add our own tests here?
       # - name: Test site
-      #   uses: omsf-eco-infra/static-site-tools/common-tests@main
+      #   uses: omsf/static-site-tools/common-tests@main
       #   with:
       #     site-directory: _site
       #     base-url: ""

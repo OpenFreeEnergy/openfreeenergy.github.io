@@ -16,12 +16,12 @@ jobs:
     steps:
       - name: Get PR metadata from action
         id: pr-metadata
-        uses: omsf-eco-infra/static-site-tools/pr-info-from-workflow-run@main
+        uses: omsf/static-site-tools/pr-info-from-workflow-run@main
 
   stage:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     needs: get-metadata
-    uses: omsf-eco-infra/static-site-tools/.github/workflows/stage-cloudflare.yaml@main
+    uses: omsf/static-site-tools/.github/workflows/stage-cloudflare.yaml@main
     permissions:
       statuses: write
       pull-requests: write
