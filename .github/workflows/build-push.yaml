@@ -14,7 +14,7 @@ jobs:
           submodules: 'recursive'
 
       - name: Build site
-        uses: omsf-eco-infra/static-site-tools/build/jekyll@main
+        uses: omsf/static-site-tools/build/jekyll@main
         with:
           base-url: ""
 

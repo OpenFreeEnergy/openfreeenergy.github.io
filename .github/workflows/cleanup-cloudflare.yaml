@@ -7,7 +7,7 @@ on:
 
 jobs:
   cleanup-staging:
-    uses: omsf-eco-infra/static-site-tools/.github/workflows/cleanup-cloudflare.yaml@main
+    uses: omsf/static-site-tools/.github/workflows/cleanup-cloudflare.yaml@main
     with:
       pr_number: ${{ github.event.pull_request.number }}
       project_name: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
