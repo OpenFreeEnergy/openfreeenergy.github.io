@@ -6,6 +6,5 @@ conda-install: gufe
 role: developers
 description: >-
   **gufe** is designed for use by developers of free energy methods.
-  It provides object models for expressing the chemical systems and the alchemical transformations between them (mappings) to form free energy networks.
-  Protocols can then be applied to provide an estimate of the free energy difference between different systems.
+  It is the underlying framework for the OpenFE ecosystem and defines the data models used in alchemical free energy calculations.
 ---
