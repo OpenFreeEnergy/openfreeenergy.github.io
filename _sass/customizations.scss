@@ -6,6 +6,7 @@
     --feeling-spicy: #b85741;
     --feeling-sick: #009384;
     --beastly-grey: #666666;
+    --tamed-grey: #e0e0e0;
     --feeling-fabulous: #9137a9;
     --feeling-blue: #2a78cb;
 
@@ -110,7 +111,9 @@ table {
 }
 
 code {
-    font-size: large;
+    font-size: 1.0em;
+    color: var(--badass-blue);
+//    background: var(--tamed-grey);
 }
 
 
