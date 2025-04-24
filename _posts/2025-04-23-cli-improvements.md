@@ -7,19 +7,11 @@ categories: release
 
 ### 1. Pass in lists of filepaths, not just a single directory
 
-you have several results directories available,
-but only want to process the results of a subset for now:
+for example:
 
 ```
-$ openfe gather results_*_trial2/
+ $ openfe gather replicate_0/*ejm_4*  --report=raw
 ```
-
-you have several results directories available, but only want to process the results of a subset for now:
-
-``` bash
-$ openfe gather results/*solvent*.json --report=raw
-```
-
 ### 2. Improved table formatting
 
 
