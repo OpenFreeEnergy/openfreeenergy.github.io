@@ -17,6 +17,8 @@ jobs:
       - name: Get PR metadata from action
         id: pr-metadata
         uses: omsf/static-site-tools/pr-info-from-workflow-run@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
   stage:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
