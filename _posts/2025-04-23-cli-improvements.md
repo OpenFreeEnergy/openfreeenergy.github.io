@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Usability Improvements to the CLI"
+title: "openfe 1.4.0 - Usability Improvements CLI Results Gathering"
 categories: release
 ---
 
@@ -70,7 +70,7 @@ Alchemical networks can become large and complex, and so an alchemical network w
 Our goal is to pass through as much useful information about the current state of the resulting alchemical network in a concise and comprehensible way.
 
 Prior to v1.4.0, openfe would simply omit any invalid edges.
-As of v1.4.0, `openfe gather` outputs every leg that it is able to detect a pair of ligand names and a leg run type (complex, solvent, or vacuum) for.
+As of v1.4.0, `openfe gather` outputs every leg for which it is able to detect a pair of ligand names and a leg run type (complex, solvent, or vacuum).
 If it is unable to determine a calculated value, it will simply mark `Error` instead.
 
 Using the same example as above, but with the `solvent` leg of the `lig_ejm_31` to `lig_ejm_42` leg failed, the resulting table would be:
@@ -113,4 +113,4 @@ We found the following opportunities for improving our error handling with timel
 
 Our hope is that these improvements made to the openfe gather CLI functionality will make analyzing and troubleshooting free energy calculation results a bit easier.
 
-Many of these changes were in response to [issues raised by users]([https://github.com/OpenFreeEnergy/openfe/issues), and more feedback is always welcome - no matter how small!
+Many of these changes were in response to issues raised by users. If you have fhttps://github.com/OpenFreeEnergy/openfe/issues), and more feedback is always welcome - no matter how small!
