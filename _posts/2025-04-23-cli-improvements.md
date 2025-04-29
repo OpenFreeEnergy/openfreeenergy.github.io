@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "openfe 1.4.0 - Usability Improvements CLI Results Gathering"
+title: "openfe v1.4.0 - CLI Results Gathering Usability Improvements"
 categories: release
 ---
 
@@ -107,8 +107,8 @@ Our goal for openfe's error handling is 1) timeliness - catch errors or invalid 
 We found the following opportunities for improving our error handling with timeliness and clarity in mind:
 
 - If the input(s) to `openfe gather ` contain no valid results (or you make a typo), ``openfe gather`` will now output an error, instead of an empty table.  This is especially helpful for if you use `-o filename.tsv`, since with the prior behavior you wouldn't be aware that it was unsuccessful until you opened the file and saw no results were recorded.
--  When performing ``report=dg`` calculations, there must be two or more repeats of every leg in order to have a non-zero uncertainty. Instead of waiting for cinnabar to fail and throw a confusing `numpy` error, we catch this up-front and let you know you need more repeats for a valid calculation.
-- If a results network has fewer than 3 edges *or* is disconnected, ``report=dg`` will fail and prompt for more legs or repeats, but both `raw` and `ddg` values may be computed.
+-  When performing ``--report=dg`` calculations, there must be two or more repeats of every leg in order to have a non-zero uncertainty. Instead of waiting for cinnabar to fail and throw a confusing `numpy` error, we catch this up-front and let you know you need more repeats for a valid calculation.
+- If a results network has fewer than 3 edges *or* is disconnected, ``--report=dg`` will fail and prompt for more legs or repeats, but both `raw` and `ddg` values may be computed.
 
 
 Our hope is that these improvements made to the openfe gather CLI functionality will make analyzing and troubleshooting free energy calculation results a bit easier.
