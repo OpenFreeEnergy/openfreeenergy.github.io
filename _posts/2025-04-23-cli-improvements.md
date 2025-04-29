@@ -113,4 +113,4 @@ We found the following opportunities for improving our error handling with timel
 
 Our hope is that these improvements made to the openfe gather CLI functionality will make analyzing and troubleshooting free energy calculation results a bit easier.
 
-Many of these changes were in response to issues raised by users. If you have fhttps://github.com/OpenFreeEnergy/openfe/issues), and more feedback is always welcome - no matter how small!
+Many of these changes were in response to [issues raised by users](https://github.com/OpenFreeEnergy/openfe/issues), and more feedback is always welcome - no matter how small!
