@@ -1,6 +1,6 @@
 ---
 name: David W.H. Swenson
-position: (Emeritus) Senior Software Scientist
+position: (Emeritus) Senior Research Software Engineer
 image_path: https://avatars.githubusercontent.com/u/8178546?v=4
 github: dwhswenson
 scholar:
