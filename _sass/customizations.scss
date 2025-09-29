@@ -1,48 +1,39 @@
 :root {
-    --badass-blue: #31394d;
-    --other-blue: #002f4a;
-    --sandy-sergio: #d9c4b1;
-    --sergios-cousin: #ede3da;
-    --feeling-spicy: #b85741;
-    --feeling-sick: #009384;
+    --midnight-purple: #3f033b ;
+    --beastly-grey: #a5a5a5;
+    --baja-teal: #00bdaa;
+    --cantina-purple: #8a2283;
+    --queso-orange: #f29727;
+    --lightest-grey: #c2c2c2;
+    --diablo-red: #b00020;
     --beastly-grey: #666666;
-    --tamed-grey: #e0e0e0;
-    --feeling-fabulous: #9137a9;
-    --feeling-blue: #2a78cb;
-
-    // These are lighter versions of some of the above colors,
-    // for contrast with dark backgrounds.
-    --feeling-spicy-darkmode: #c56d59;
-    --feeling-sick-darkmode: #00b8a5;
-    --feeling-fabulous-darkmode: #af56c8;
-    --feeling-blue-darkmode: #5697dc;
 }
 
 .hero {
-    background: var(--badass-blue);
+    background: var(--midnight-purple);
     font-family: Inter, sans-serif;
 
 }
 
 img.main-page-bullet {
-    border: 2px solid var(--other-blue);
+    border: 2px solid var(--lightest-grey);
 }
 
 header {
-    background: var(--badass-blue);
+    background: var(--midnight-purple);
 }
 
 footer {
-    background: var(--badass-blue);
+    background: var(--midnight-purple);
 }
 
 .bottom-cta {
-    background: var(--other-blue);
+    background: var(--lightest-grey);
 }
 
 
 a {
-    color: var(--other-blue);
+    color: var(--baja-teal);
 }
 
 p, address {
@@ -50,20 +41,20 @@ p, address {
 }
 
 h2, h3 {
-    color: var(--badass-blue);
+    color: var(--midnight-purple);
 }
 
 .button a {
-    background: var(--badass-blue);
+    background: var(--midnight-purple);
     transition: 0.2s;
 }
 
 .button a:hover {
-    background: var(--other-blue);
+    background: var(--baja-teal);
 }
 
 .button.cta.alt a:hover {
-    color: var(--badass-blue);
+    color: var(--midnight-purple);
 }
 
 .bottom-cta h2 {
@@ -95,11 +86,11 @@ li {
 }
 
 .github a.GitHub-icon {
-    color: --var(other-blue);
+    color: --var(beastly-grey);
 }
 
 .bottom-cta a {
-    color: #AAA;
+    color: var(--beastly-grey);
 }
 
 table {
@@ -112,7 +103,7 @@ table {
 
 code {
     font-size: 1.0em;
-    color: var(--badass-blue);
+    color: var(--midnight-purple);
 //    background: var(--tamed-grey);
 }
 
