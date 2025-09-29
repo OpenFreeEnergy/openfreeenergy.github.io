@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="748"
+   height="743"
+   viewBox="0 0 748 743"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="OFE-orange-icon copy.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.15421983"
+     inkscape:cx="61.600377"
+     inkscape:cy="-171.83263"
+     inkscape:window-width="1512"
+     inkscape:window-height="762"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g3" />
+  <g
+     clip-path="url(#clip0_396_151)"
+     id="g3">
+    <path
+       d="M267.99 102.211C119.99 102.211 0 222.191 0 370.211C0 452.061 36.71 525.321 94.54 574.491L327.37 108.831C308.27 104.501 288.4 102.211 267.99 102.211Z"
+       fill="#8A2283"
+       id="path1" />
+    <path
+       d="M515.66 267.67C528.75 299.25 535.99 333.89 535.99 370.21C535.99 512.26 425.47 628.47 285.73 637.6H702.44L380.64 0L63.6396 637.6H267.99V267.67H515.66Z"
+       fill="#00BDAA"
+       id="path2"
+       style="fill:#f29626;fill-opacity:1" />
+    <path
+       d="M516.81 267.67L702.08 638.2H267.99V742.06H747.62V267.66H516.81V267.67Z"
+       fill="#8A2283"
+       id="path3" />
+  </g>
+  <defs
+     id="defs3">
+    <clipPath
+       id="clip0_396_151">
+      <rect
+         width="747.62"
+         height="742.06"
+         fill="white"
+         id="rect3" />
+    </clipPath>
+  </defs>
+</svg>
