@@ -1,12 +1,13 @@
 :root {
     --midnight-purple: #3f033b ;
-    --beastly-grey: #a5a5a5;
+    --light-grey: #a5a5a5;
     --baja-teal: #00bdaa;
     --cantina-purple: #8a2283;
     --queso-orange: #f29727;
     --lightest-grey: #c2c2c2;
     --diablo-red: #b00020;
     --beastly-grey: #666666;
+    --not-quite-black: #270224;
 }
 
 .hero {
@@ -16,7 +17,9 @@
 }
 
 img.main-page-bullet {
-    border: 2px solid var(--lightest-grey);
+    border: 1px solid var(--lightest-grey);
+    height: 200px;
+    width: auto;
 }
 
 header {
@@ -28,9 +31,10 @@ footer {
 }
 
 .bottom-cta {
-    background: var(--lightest-grey);
+    background: var(--not-quite-black);
+    padding: 30px;
+    font-size: small;
 }
-
 
 a {
     color: var(--baja-teal);
@@ -42,6 +46,7 @@ p, address {
 
 h2, h3 {
     color: var(--midnight-purple);
+    font-size: x-large;
 }
 
 .button a {
@@ -58,13 +63,13 @@ h2, h3 {
 }
 
 .bottom-cta h2 {
-    color: #FFF;
+    color: #ffffff;
+    margin-bottom: 0px;
 }
 
 
 li {
         font-size: 1.38em;
-        color: var(--beastly-grey);
         font-weight: 300;
         line-height: 1.4em;
 }
@@ -78,7 +83,7 @@ li {
 }
 
 .name {
-    color: #222;
+    color: var(--not-quite-black);
 }
 
 .footer-links li {
@@ -87,10 +92,6 @@ li {
 
 .github a.GitHub-icon {
     color: --var(beastly-grey);
-}
-
-.bottom-cta a {
-    color: var(--beastly-grey);
 }
 
 table {
@@ -107,4 +108,6 @@ code {
 //    background: var(--tamed-grey);
 }
 
-
+section {
+    padding: 50px;
+}
