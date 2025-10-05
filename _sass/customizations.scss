@@ -4,10 +4,11 @@
     --baja-teal: #00bdaa;
     --cantina-purple: #8a2283;
     --queso-orange: #f29727;
-    --lightest-grey: #c2c2c2;
+    --lighter-grey: #c2c2c2;
     --diablo-red: #b00020;
     --beastly-grey: #666666;
     --not-quite-black: #270224;
+    --off-white: #eeeeee
 }
 
 .hero {
@@ -21,7 +22,7 @@ img.main-page-bullet {
 }
 
 header {
-    background: var(--midnight-purple);
+    background: var(--off-white);
 }
 
 footer {
