@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Getting Involved
-description: Get in touch!
 permalink: /getting_involved/
 ---
 
