@@ -22,7 +22,7 @@ Software Foundation (OMSF)](https://omsf.io/).
 The Open Free Energy Fund, managed by OMSF, receives contributions from industrial partners and uses them to support continued work on Open Free Energy.
 
 
-## Industry partners
+## Industry Partners
 
 - [AstraZeneca](https://www.astrazeneca.com/)
 - [Bayer](https://www.bayer.com/en/)
@@ -36,3 +36,20 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 - [Merck KGaA](https://www.merckgroup.com/en)
 - [Pfizer](https://www.pfizer.com/)
 - And others...
+
+
+## Technical Advisory Council (TAC)
+- Oliver Beckstein, Arizona State University
+- Phil Biggin, University of Oxford
+- Stefan Boresch, University of Vienna
+- John Chodera,œ Memorial Sloan Kettering Cancer Center
+- Zoe Cournia, Academy of Athens
+- Emilio Gallicchio, CUNY Brooklyn College
+- Antonia Mey, The University of Edinburgh
+- Julien Michel, The University of Edinburgh
+- David Mobley, University of California, Irvine
+- Bharath Ramsundar, Deep Forest Sciences
+- Sereina Riniker, ETH Zurich
+- Michael Shirts, University of Colorado Boulder
+- Sukrit Singh, Memorial Sloan-Kettering Cancer Center
+- Jonah Vilseck, [Indiana University]
