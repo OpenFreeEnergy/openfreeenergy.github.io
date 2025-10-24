@@ -51,6 +51,11 @@ h2, h3 {
     transition: 0.2s;
 }
 
+.button.alt a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .button a:hover {
     background: var(--baja-teal);
 }
