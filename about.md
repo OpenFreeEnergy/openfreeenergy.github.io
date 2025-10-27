@@ -21,7 +21,6 @@ The Open Free Energy project is a hosted software project of the [Open Molecular
 Software Foundation (OMSF)](https://omsf.io/).
 The Open Free Energy Fund, managed by OMSF, receives contributions from industrial partners and uses them to support continued work on Open Free Energy.
 
-
 ## Industry Partners
 
 - [AstraZeneca](https://www.astrazeneca.com/)
@@ -42,7 +41,7 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 - Oliver Beckstein, Arizona State University
 - Phil Biggin, University of Oxford
 - Stefan Boresch, University of Vienna
-- John Chodera,œ Memorial Sloan Kettering Cancer Center
+- John Chodera, Memorial Sloan Kettering Cancer Center
 - Zoe Cournia, Academy of Athens
 - Emilio Gallicchio, CUNY Brooklyn College
 - Antonia Mey, The University of Edinburgh
@@ -52,4 +51,4 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 - Sereina Riniker, ETH Zurich
 - Michael Shirts, University of Colorado Boulder
 - Sukrit Singh, Memorial Sloan-Kettering Cancer Center
-- Jonah Vilseck, [Indiana University]
+- Jonah Vilseck, Indiana University
