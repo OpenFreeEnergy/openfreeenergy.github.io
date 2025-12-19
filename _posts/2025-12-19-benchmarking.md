@@ -4,7 +4,7 @@ title: "Preprint available: Large-scale collaborative assessment of binding free
 categories: science update publication
 ---
 
-In collaboration with our industry partners, we ran benchmarking simulations of our hybrid-topology RBFE protocol on a large collection of both public and private protein-ligand binding datasets. Across a total of 1,700 ligands, OpenFE shows robust performance, generates reproducible results, and achieves both sufficient throughput and rapid convergence.
+In collaboration with our industry partners, we ran benchmarking simulations of our hybrid topology RBFE protocol on a large collection of both public and private protein-ligand binding datasets. Across over 1,700 ligands, OpenFE shows robust performance, generates reproducible results, and achieves both sufficient throughput.
 
 Our protocol: 
 - ranks compounds about as well as commercial solutions
