@@ -6,9 +6,7 @@ categories: science update publication
 
 In collaboration with our industry partners, we ran benchmarking simulations of our hybrid topology RBFE protocol on a large collection of both public and private protein-ligand binding datasets. Across over 1,700 ligands, OpenFE shows robust performance, generates reproducible results, and achieves both sufficient throughput.
 
-Our protocol: 
-- ranks compounds about as well as commercial solutions
-- does not require fine-tuning settings for each system
+Our results indicate that the *out-of-the-box* performance from *openfe* approaches the ranking power of state-of-the-art commercial solutions.
 
 To our knowledge, this is the first study to report binding free energy benchmarks on a cross-company collection of proprietary datasets. We couldn't have done it without the hard work of our partner companies!
 
