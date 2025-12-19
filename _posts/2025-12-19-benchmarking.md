@@ -12,4 +12,4 @@ Our protocol:
 
 To our knowledge, this is the first study to report binding free energy benchmarks on a cross-company collection of proprietary datasets. We couldn't have done it without the hard work of our partner companies!
 
-The results of this [industry benchmarking study](https://chemrxiv.org/engage/chemrxiv/article-details/6936e3bda10c9f5ca1e61f71) are available now as a preprint.
+The results of this industry benchmarking study are now available [as a preprint on ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/6936e3bda10c9f5ca1e61f71).
