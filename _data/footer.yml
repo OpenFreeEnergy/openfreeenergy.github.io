@@ -6,7 +6,7 @@
   - name: OpenFreeEnergy
     link: https://github.com/openfreeenergy
     new_window: True
-    social_icon: GitHub  # we'll need to get this from another source
+    social_icon: GitHub
   - name: openfreeenergy
     link: https://zenodo.org/communities/openfreeenergy
     new_window: True
@@ -15,3 +15,4 @@
     link: https://bsky.app/profile/openfree.energy
     new_window: True
     social_icon: Bluesky
+
