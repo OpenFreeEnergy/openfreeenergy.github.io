@@ -1,8 +1,8 @@
 - links:
-  - name: "@OpenFree.Energy"
-    link: https://bsky.app/profile/openfree.energy
+  - name: Open Free Energy
+    link: https://linkedin.com/company/open-free-energy/
     new_window: True
-    social_icon: Bluesky
+    social_icon: LinkedIn 
   - name: OpenFreeEnergy
     link: https://github.com/openfreeenergy
     new_window: True
@@ -11,3 +11,7 @@
     link: https://zenodo.org/communities/openfreeenergy
     new_window: True
     social_icon: Zenodo 
+  - name: "@OpenFree.Energy"
+    link: https://bsky.app/profile/openfree.energy
+    new_window: True
+    social_icon: Bluesky
