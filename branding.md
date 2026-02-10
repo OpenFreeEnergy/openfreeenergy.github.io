@@ -4,7 +4,7 @@ title: Branding
 permalink: /branding/
 ---
 
-Below are commonly used variants of the OpenFE logo. You can also download a full logo package containing more variants, including greyscale versions, here.
+Below are commonly used variants of the OpenFE logo. You can also download a full logo package containing more variants, including greyscale versions, <a href="assets/OpenFE_logos.zip" download="OpenFE_logos.zip"> here</a>.
 
 <center>
 <img src="/assets/images/OFE-color-horizontal.png" alt="OpenFE logo, horizontal" hspace="20px" vspace="20px" style="width:300px;" />
