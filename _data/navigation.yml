@@ -14,8 +14,12 @@
   link: /news/
   new_window: False
   highlight: False
-- name: Getting involved
-  link: /getting_involved/
+- name: Get Involved
+  link: /get_involved/
+  new_window: False
+  highlight: False
+- name: Branding
+  link: /branding/
   new_window: False
   highlight: False
 - name: Careers

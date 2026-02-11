@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Getting Involved
-permalink: /getting_involved/
+title: Get Involved
+permalink: /get_involved/
 ---
 
 There are three ways to get involved with Open Free Energy:
