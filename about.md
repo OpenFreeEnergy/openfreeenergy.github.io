@@ -23,19 +23,22 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 
 ## Industry Partners
 
-- [AstraZeneca](https://www.astrazeneca.com/)
+- [Achira](https://achira.ai/)
+- [Amgen](https://www.amgen.com/)
 - [Bayer](https://www.bayer.com/en/)
+- [Biogen](https://www.biogen.com/)
 - [Boehringer Ingelheim](https://www.boehringer-ingelheim.com)
 - [Bristol Myers Squibb](https://www.bms.com/)
 - [Confo Therapeutics](https://www.confotherapeutics.com/)
+- [Cresset Biomolecular Discovery](https://cresset-group.com/)
+- [Deep Origin](https://www.deeporigin.com)
 - [Eli Lilly](https://www.lilly.com/)
 - [Genentech, a member of the Roche Group](https://www.gene.com/)
 - [GSK](https://www.gsk.com/en-gb/)
 - [Janssen Pharmaceutica NV](https://www.janssen.com/)
 - [Merck KGaA](https://www.merckgroup.com/en)
+- [Neomorph](https://neomorph.com/index.html#home)
 - [Pfizer](https://www.pfizer.com/)
-- And others...
-
 
 ## Technical Advisory Council (TAC)
 - Oliver Beckstein, Arizona State University
