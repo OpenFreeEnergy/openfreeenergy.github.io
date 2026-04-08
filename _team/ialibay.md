@@ -9,8 +9,7 @@ blurb: >-
   Irfan specialises in open source software development
   and using various molecular dynamics based methods (primarily alchemical)
   to probe Protein-Ligand interactions.
-  He has been working as Science Lead with OpenFE since 2022, has been
-  acting as interim Infrastructure Lead since May 2024.
+  He has been working as Science Lead with OpenFE since 2022 and was interim Infrastructure Lead from 2024-2025.
   In his spare time Irfan contributes to other open source projects notably
   the MDAnalysis library.
 order: 0
