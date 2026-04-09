@@ -1,6 +1,6 @@
 ---
 name: Josh Horton
-position: Software Scientist
+position: Senior Software Scientist
 affiliation: OpenFE Staff
 image_path: /assets/images/team/JoshHorton.jpg
 github: jthorton
