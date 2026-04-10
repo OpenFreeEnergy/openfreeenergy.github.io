@@ -1,6 +1,6 @@
 ---
 name: Irfan Alibay
-position: Science and Infrastructure Lead
+position: Science Lead
 affiliation: OpenFE Staff
 image_path: /assets/images/team/IrfanAlibay.jpg
 github: IAlibay
@@ -9,8 +9,7 @@ blurb: >-
   Irfan specialises in open source software development
   and using various molecular dynamics based methods (primarily alchemical)
   to probe Protein-Ligand interactions.
-  He has been working as Science Lead with OpenFE since 2022, has been
-  acting as interim Infrastructure Lead since May 2024.
+  He has been working as Science Lead with OpenFE since 2022 and was interim Lead RSE from May 2024 to March 2026.
   In his spare time Irfan contributes to other open source projects notably
   the MDAnalysis library.
 order: 0
