@@ -31,6 +31,7 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 - [Bristol Myers Squibb](https://www.bms.com/)
 - [Confo Therapeutics](https://www.confotherapeutics.com/)
 - [Cresset Biomolecular Discovery](https://cresset-group.com/)
+- [Deep Apple](https://deepappletx.com/)
 - [Deep Origin](https://www.deeporigin.com)
 - [Eli Lilly](https://www.lilly.com/)
 - [Genentech, a member of the Roche Group](https://www.gene.com/)
