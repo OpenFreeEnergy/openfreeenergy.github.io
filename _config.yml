@@ -85,6 +85,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+include:
+  - _redirects
+
 exclude:
   - Gemfile
   - Gemfile.lock
