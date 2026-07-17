@@ -46,6 +46,7 @@ The Open Free Energy Fund, managed by OMSF, receives contributions from industri
 - Phil Biggin, University of Oxford
 - Stefan Boresch, University of Vienna
 - John Chodera, Memorial Sloan Kettering Cancer Center
+- Daniel Cole, Newcastle University
 - Zoe Cournia, Academy of Athens
 - Emilio Gallicchio, CUNY Brooklyn College
 - Antonia Mey, The University of Edinburgh
