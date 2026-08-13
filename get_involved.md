@@ -9,7 +9,7 @@ There are three ways to get involved with Open Free Energy:
  - Academic research labs can collaborate through membership in our Technical Advisory Council.
  - Individuals can contribute code on [github](https://github.com/OpenFreeEnergy).
 
-To get in touch, please email us at `OpenFreeEnergy@omsf.io`
+To get in touch, please email us at `OpenFreeEnergy@omsf.io` or [join the discussion on github](https://github.com/orgs/OpenFreeEnergy/discussions)
 
 
 Joining the Consortium
