@@ -1,5 +1,6 @@
 ---
 name: Mike Henry
+affiliation: OMSF Staff
 position: Core Developer
 image_path: https://avatars.githubusercontent.com/u/11765982?v=4
 github: mikemhenry
