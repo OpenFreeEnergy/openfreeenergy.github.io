@@ -16,7 +16,7 @@ Let's highlight some current features:
 - Automated analysis of results
 
 And that's not all! OpenFE is constantly evolving. We will continue to implement new features and improve our software. We are always eager to receive feedback from you.
-So, let us know what you think! You can try it out in your browser at [http://try.openfree.energy](http://try.openfree.energy). Happy exploring Alchemical Free Energies with OpenFE!
+So, let us know what you think! You can try it out in your browser at [https://try.openfree.energy](https://try.openfree.energy). Happy exploring Alchemical Free Energies with OpenFE!
 
 [GitHub](https://github.com/OpenFreeEnergy/openfe)
 
